@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/workspaces/smartiee/SmartieeWeb/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/compressed/gye8iu0yp0.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/scopedcss/bundle/SmartieeWeb.styles.css",
+      "PackagePath": "staticwebassets/SmartieeWeb.styles.css"
+    },
+    {
+      "Id": "/workspaces/smartiee/SmartieeWeb/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/workspaces/smartiee/SmartieeWeb/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/workspaces/smartiee/SmartieeWeb/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/workspaces/smartiee/SmartieeWeb/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/workspaces/smartiee/SmartieeWeb/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/workspaces/smartiee/SmartieeWeb/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/workspaces/smartiee/SmartieeWeb/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.SmartieeWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.SmartieeWeb.props",
+      "PackagePath": "build\\SmartieeWeb.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.SmartieeWeb.props",
+      "PackagePath": "buildMultiTargeting\\SmartieeWeb.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.SmartieeWeb.props",
+      "PackagePath": "buildTransitive\\SmartieeWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
