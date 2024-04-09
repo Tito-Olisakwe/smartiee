@@ -26,16 +26,32 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/smartiee/SmartieeWeb/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+[/workspaces/smartiee/SmartieeWeb/Pages/Categories.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/smartiee/SmartieeWeb/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+[/workspaces/smartiee/SmartieeWeb/Pages/ConfirmModal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29uZmlybU1vZGFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/smartiee/SmartieeWeb/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
+[/workspaces/smartiee/SmartieeWeb/Pages/Difficulty.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGlmZmljdWx0eS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/smartiee/SmartieeWeb/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/smartiee/SmartieeWeb/Pages/Quiz.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUXVpei5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/smartiee/SmartieeWeb/Pages/Results.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVzdWx0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/smartiee/SmartieeWeb/Pages/TimedQuizSelection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGltZWRRdWl6U2VsZWN0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/workspaces/smartiee/SmartieeWeb/_Imports.razor]

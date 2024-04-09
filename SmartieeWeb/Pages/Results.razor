@@ -1,0 +1,60 @@
+@page "/results/{ScoreAsString}"
+@inject NavigationManager NavigationManager
+@inject QuizService QuizService
+@inject AppStateService AppStateService
+
+<h2>Quiz Completed</h2>
+
+@if (timeRanOut)
+{
+    <p>Time ran out! Here's how you did:</p>
+}
+else
+{
+    <p>You've completed the quiz! Here's how you did:</p>
+    <p>@QuizDurationText</p>
+}
+
+<p>Your score: @Score/@TotalQuestions</p>
+<p>That's @Percentage.ToString("0.##")%!</p>
+
+<button class="custom-btn" @onclick="PlayAgain">Play Again</button>
+<button class="custom-btn" @onclick="ReturnToMainMenu">Return to Main Menu</button>
+
+@code {
+    [Parameter] public string ScoreAsString { get; set; }
+    public int Score { get; private set; }
+    public int TotalQuestions { get; private set; }
+    public double Percentage { get; private set; }
+    private bool timeRanOut;
+
+    private string QuizDurationText => QuizService.LastIsTimed ? $"You completed the quiz in {QuizService.GetQuizDuration().ToString(@"mm\:ss")}." : string.Empty;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        if (!int.TryParse(ScoreAsString, out var score))
+        {
+            throw new InvalidOperationException("Invalid score value.");
+        }
+        Score = score; // Assign the parsed value to the property
+
+        TotalQuestions = QuizService.TotalQuestions;
+        Percentage = TotalQuestions > 0 ? ((double)Score / TotalQuestions) * 100 : 0;
+        timeRanOut = QuizService.TimeRanOut;
+    }
+
+    private void PlayAgain()
+    {
+        // Navigate to the quiz page with the previous settings
+        var url = $"/quiz/{QuizService.LastCategoryId}/{QuizService.LastDifficulty}/{QuizService.LastIsTimed}";
+        NavigationManager.NavigateTo(url);
+    }
+
+    private void ReturnToMainMenu()
+    {
+        AppStateService.ResetCategoryNameToDefault();
+        NavigationManager.NavigateTo("/");
+    }
+}

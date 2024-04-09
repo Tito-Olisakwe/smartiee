@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/SmartieeWeb.styles.css"
     },
     {
+      "Id": "/workspaces/smartiee/SmartieeWeb/wwwroot/TriviaData.json",
+      "PackagePath": "staticwebassets/TriviaData.json"
+    },
+    {
       "Id": "/workspaces/smartiee/SmartieeWeb/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },

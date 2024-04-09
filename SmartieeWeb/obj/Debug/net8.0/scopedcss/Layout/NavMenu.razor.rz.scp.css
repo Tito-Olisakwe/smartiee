@@ -81,3 +81,19 @@
         overflow-y: auto;
     }
 }
+
+.nav-link-button[b-7fnbho4h7v] {
+    color: #d7d7d7;
+    background-color: transparent;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    text-align: left;
+    width: 100%;
+    display: block;
+}
+
+.nav-link-button:hover[b-7fnbho4h7v] {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}

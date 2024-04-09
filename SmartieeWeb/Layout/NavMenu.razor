@@ -1,6 +1,10 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@inject DataService DataService
+@inject AppStateService AppStateService
+@inject NavigationManager NavigationManager
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">SmartieeWeb</a>
+        <a class="navbar-brand" href="" @onclick="ResetToDefaultCategoryName">Smartiee Quiz</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -10,19 +14,22 @@
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
     <nav class="flex-column">
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            <NavLink class="nav-link" href="/" Match="NavLinkMatch.All" @onclick="ResetToDefaultCategoryName">
                 <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
             </NavLink>
         </div>
+        @foreach (var category in categories)
+        {
+            <div class="nav-item px-3">
+                <button class="nav-link-button" @onclick="() => NavigateToCategory(category.Id, category.Name)">
+                    @category.Name
+                </button>
+            </div>
+        }
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
-            </NavLink>
+            <button class="nav-link-button" @onclick="NavigateToRandomCategory">
+                Random
+            </button>
         </div>
     </nav>
 </div>
@@ -32,8 +39,40 @@
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
+    private List<Category> categories = new List<Category>();
+
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var triviaData = await DataService.LoadTriviaDataAsync();
+        if (triviaData != null && triviaData.Categories != null)
+        {
+            categories = triviaData.Categories;
+        }
+        else
+        {
+            // Display a placeholder or error message
+            categories = new List<Category> { new Category { Id = -1, Name = "Categories Unavailable" } };
+        }
+    }
+
+    private void NavigateToCategory(int categoryId, string categoryName)
+    {
+        AppStateService.SetCurrentCategoryName(categoryName);
+        NavigationManager.NavigateTo($"/difficulty/{categoryId}");
+    }
+
+    private void NavigateToRandomCategory()
+    {
+        NavigateToCategory(0, "Random");
+    }
+
+    private void ResetToDefaultCategoryName()
+    {
+        AppStateService.ResetCategoryNameToDefault();
     }
 }

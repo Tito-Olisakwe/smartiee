@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G1xhvtcNH8JHVu/VthRD/+hchqh51nO3IXscHu+rtHY=",
+  "Hash": "Z8goifPXAeuHJzPBK4/Ew9oAgOfSm6dpoH8NSro7nqM=",
   "Source": "SmartieeWeb",
   "BasePath": "/",
   "Mode": "Root",
@@ -7938,6 +7938,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/sample-data/weather.json"
+    },
+    {
+      "Identity": "/workspaces/smartiee/SmartieeWeb/wwwroot/TriviaData.json",
+      "SourceId": "SmartieeWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/smartiee/SmartieeWeb/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "TriviaData.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/TriviaData.json"
     }
   ]
 }

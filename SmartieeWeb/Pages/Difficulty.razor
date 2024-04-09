@@ -1,0 +1,25 @@
+@page "/difficulty/{CategoryId:int}"
+
+@inject NavigationManager NavigationManager
+
+<h2>Select Difficulty Level:</h2>
+
+<button class="custom-btn" @onclick="StartEasyQuiz">Easy</button>
+<button class="custom-btn" @onclick="StartMediumQuiz">Medium</button>
+<button class="custom-btn" @onclick="StartHardQuiz">Hard</button>
+
+
+@code {
+    [Parameter]
+    public int CategoryId { get; set; }
+
+    private void StartEasyQuiz() => StartQuiz("Easy");
+    private void StartMediumQuiz() => StartQuiz("Medium");
+    private void StartHardQuiz() => StartQuiz("Hard");
+
+    private void StartQuiz(string difficulty)
+    {
+        // Navigation logic to timed quiz selection
+        NavigationManager.NavigateTo($"/timed/{CategoryId}/{difficulty}");
+    }
+}

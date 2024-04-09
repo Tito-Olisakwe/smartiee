@@ -1,0 +1,50 @@
+@page "/categories"
+
+@inject DataService DataService
+@inject NavigationManager NavigationManager
+@inject AppStateService AppStateService
+
+
+<h2>Select a Category:</h2>
+
+@if (categories != null)
+{
+    foreach (var category in categories)
+    {
+        <button class="custom-btn" @onclick="() => SelectCategory(category.Id)">@category.Name</button>
+    }
+    <button class="custom-btn" @onclick="() => SelectCategory(0)">Random</button>
+}
+else
+{
+    <p>Loading...</p>
+}
+
+@code {
+    private List<Category> categories;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var triviaData = await DataService.LoadTriviaDataAsync();
+        categories = triviaData.Categories;
+    }
+
+    private void SelectCategory(int categoryId)
+    {
+        string categoryName = "Random"; // Default to "Random" for categoryId 0 or if not found
+
+        if (categoryId != 0)
+        {
+            var category = categories.FirstOrDefault(c => c.Id == categoryId);
+            if (category != null)
+            {
+                categoryName = category.Name;
+            }
+        }
+
+        AppStateService.SetCurrentCategoryName(categoryName);
+
+        // Navigation logic to difficulty selection
+        NavigationManager.NavigateTo($"/difficulty/{categoryId}");
+    }
+}

@@ -1,0 +1,300 @@
+@page "/quiz/{CategoryIdAsString}/{Difficulty}/{IsTimed:bool}"
+@inject QuizService QuizService
+@inject NavigationManager NavigationManager
+@inject ILogger<Quiz> Logger
+
+@if (currentQuestion == null)
+{
+    <p>Loading questions...</p>
+}
+else if (timeExpired)
+{
+    <p>Time's up! Your final score: @QuizService.Score</p>
+    <button @onclick="ShowResults">See Results</button>
+}
+else
+{
+    <h3>@currentQuestion.QuestionText</h3>
+    @if (IsTimed)
+    {
+        <p>Time left: @timeLeft.ToString(@"mm\:ss")</p>
+    }
+    <ul>
+        @foreach (var option in currentQuestion.Options.Select((value, index) => new { value, index }))
+        {
+            <li>
+                <button @onclick="() => ConfirmAnswer(option.index)"
+                        class="@(GetOptionClass(option.index))"
+                        disabled="@answerConfirmed">
+                    @option.value
+                </button>
+            </li>
+        }
+    </ul>
+}
+
+<ConfirmModal @ref="confirmModal" OnConfirm="OnConfirm" OnCancel="OnCancelConfirm" />
+
+
+@code {
+    [Parameter] public string CategoryIdAsString { get; set; } // Capture CategoryId as string from the URL
+    public int CategoryId { get; set; }
+    [Parameter] public string Difficulty { get; set; }
+    [Parameter] public bool IsTimed { get; set; }
+    
+    private Question currentQuestion;
+    private int currentQuestionIndex;
+    private ConfirmModal confirmModal;
+    private System.Threading.Timer quizTimer;
+    private TimeSpan timeLeft;
+    private bool timeExpired;
+    private string prevCategoryIdAsString;
+    private string prevDifficulty;
+    private bool? lastAnswerCorrect;
+    private string lastAnswerExplanation;
+    private int categoryId;
+    private bool answerConfirmed = false;
+    private int? selectedOptionIndex = null;
+    private bool? isSelectionCorrect = null;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Initial component setup can go here
+        // Since parameters handling and question loading are moved to OnParametersSetAsync,
+        // keep this method for any initializations that don't depend on parameters
+        await base.OnInitializedAsync();
+        QuizService.StartQuizTimer(); // Start the timer when the quiz starts
+    }
+
+    private void StartTimer()
+    {
+        // Adjust the time limit based on whether it's a Random quiz
+        if (categoryId == 0) // Assuming 0 indicates a Random quiz
+        {
+            timeLeft = TimeSpan.FromMinutes(10); // 10 minutes for Random
+        }
+        else
+        {
+            timeLeft = TimeSpan.FromMinutes(5); // 5 minutes otherwise
+        }
+
+        if (quizTimer != null)
+        {
+            quizTimer.Change(Timeout.Infinite, 0); // Stop any existing timer.
+            quizTimer.Dispose();
+        }
+
+        quizTimer = new System.Threading.Timer(_ =>
+        {
+            if (timeLeft <= TimeSpan.Zero)
+            {
+                timeExpired = true;
+                QuizService.MarkTimeAsRanOut(); // Mark the time as run out before navigating
+
+                quizTimer?.Change(Timeout.Infinite, 0); // Stop the timer
+                quizTimer?.Dispose(); // Dispose of the timer to prevent further ticks
+
+                InvokeAsync(() =>
+                {
+                    StateHasChanged(); // Optional, if you need to update the UI before navigating
+                    NavigationManager.NavigateTo($"/results/{QuizService.Score}"); // Navigate to results
+                });
+            }
+            else
+            {
+                timeLeft = timeLeft.Add(TimeSpan.FromSeconds(-1));
+                InvokeAsync(StateHasChanged);
+            }
+        }, null, TimeSpan.Zero, TimeSpan.FromSeconds(1));
+    }
+
+    private void GetNextQuestion()
+    {
+        // Check if there are more questions to display
+        if (QuizService.HasMoreQuestions(currentQuestionIndex))
+        {
+            // Fetch the current question based on the current index without incrementing it
+            currentQuestion = QuizService.GetQuestion(currentQuestionIndex);
+
+            if (currentQuestion != null)
+            {
+                // Log the question and its options for debugging
+                Logger.LogInformation("Displaying question {QuestionIndex}: {QuestionText}", currentQuestionIndex + 1, currentQuestion.QuestionText);
+                for (int i = 0; i < currentQuestion.Options.Length; i++)
+                {
+                    Logger.LogInformation("Option {OptionIndex}: {OptionText}", i, currentQuestion.Options[i]);
+                }
+            }
+            else
+            {
+                // Log an error if the question is unexpectedly null
+                Logger.LogError("Expected to find a question at index {QuestionIndex} but found null.", currentQuestionIndex);
+            }
+        }
+        else
+        {
+            // If there are no more questions, log this info and show the results
+            Logger.LogInformation("No more questions, showing results.");
+            ShowResults();
+        }
+    }
+
+    private async Task OnConfirm(int optionIndex)
+    {
+        selectedOptionIndex = optionIndex;
+        isSelectionCorrect = currentQuestion.CorrectAnswerIndex == optionIndex;
+        await SubmitAnswer(optionIndex);
+        StateHasChanged();
+    }
+
+    private void ConfirmAnswer(int optionIndex)
+    {
+        if (answerConfirmed)
+        {
+            // Optionally, notify the user that the answer has already been confirmed.
+            return;
+        }
+
+        Logger.LogInformation($"ConfirmAnswer called with index: {optionIndex}");
+
+        if (currentQuestion == null)
+        {
+            Logger.LogError("Attempt to confirm answer when currentQuestion is null.");
+            return;
+        }
+
+        if (optionIndex < 0 || optionIndex >= currentQuestion.Options.Length)
+        {
+            Logger.LogError("Option index {OptionIndex} is out of range for current question.", optionIndex);
+            return;
+        }
+
+        answerConfirmed = true;
+        // Trigger modal display with the selected option index
+        confirmModal.Show($"Do you confirm this is your final answer: {currentQuestion.Options[optionIndex]}?", optionIndex);
+    }
+
+
+    private async Task SubmitAnswer(int optionIndex)
+    {
+        if (timeExpired) return;
+
+        var isCorrect = QuizService.SubmitAnswer(currentQuestionIndex, optionIndex);
+        lastAnswerCorrect = isCorrect;
+        lastAnswerExplanation = currentQuestion.Explanation; // Assuming currentQuestion includes the explanation
+
+        Logger.LogInformation($"Answer submitted for question {currentQuestionIndex + 1}: {isCorrect}");
+
+        // Do not move to the next question immediately. Instead, wait for user action.
+    }
+
+
+    private void ShowResults()
+    {
+        QuizService.EndQuizTimer(); // End the timer when concluding the quiz
+        NavigationManager.NavigateTo($"/results/{QuizService.Score}");
+    }
+
+    public void Dispose()
+    {
+        quizTimer?.Change(Timeout.Infinite, 0); // Stop the timer
+        quizTimer?.Dispose(); // Dispose the timer
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        // Directly parse CategoryIdAsString, including "0" for Random category
+        if (!int.TryParse(CategoryIdAsString, out categoryId)) // Parse directly into the field
+        {
+            Logger.LogError("Invalid CategoryId passed to Quiz component.");
+            return;
+        }
+        
+        CategoryId = categoryId; // This might be redundant if you're directly using the field
+
+        // Proceed with loading questions.
+        await QuizService.LoadQuestionsAsync(categoryId, Difficulty, IsTimed);
+
+        // Check if questions were successfully loaded before proceeding
+        if (QuizService.TotalQuestions == 0)
+        {
+            Logger.LogWarning("No questions loaded, redirecting to categories.");
+            NavigationManager.NavigateTo("/categories");
+        }
+        else
+        {
+            // Setup for starting the quiz, including timer if necessary
+            if (IsTimed)
+            {
+                StartTimer();
+            }
+            currentQuestionIndex = 0;
+            GetNextQuestion();
+        }
+    }
+
+    private async Task InitializeQuiz()
+    {
+        await QuizService.LoadQuestionsAsync(CategoryId, Difficulty, IsTimed);
+        if (QuizService.TotalQuestions == 0)
+        {
+            Logger.LogWarning("No questions loaded, redirecting to categories.");
+            NavigationManager.NavigateTo("/categories");
+            return;
+        }
+
+        if (IsTimed)
+        {
+            timeLeft = TimeSpan.FromMinutes(5); // Adjust time as necessary
+            StartTimer();
+        }
+
+        currentQuestionIndex = 0;
+        GetNextQuestion();
+    }
+
+    private void ProceedToNextQuestion()
+    {
+        currentQuestionIndex++;
+        GetNextQuestion();
+        lastAnswerCorrect = null; // Reset feedback state
+        answerConfirmed = false;
+        selectedOptionIndex = null;
+        isSelectionCorrect = null;
+    }
+
+    private void OnCancelConfirm()
+    {
+        answerConfirmed = false;
+        StateHasChanged(); // This will re-render the component and enable the buttons again
+    }
+
+    private string GetOptionClass(int optionIndex)
+    {
+        if (selectedOptionIndex.HasValue && selectedOptionIndex.Value == optionIndex)
+        {
+            return isSelectionCorrect.Value ? "option-correct" : "option-incorrect";
+        }
+        if (isSelectionCorrect.HasValue && !isSelectionCorrect.Value && currentQuestion.CorrectAnswerIndex == optionIndex)
+        {
+            return "option-correct";
+        }
+        return ""; // Default class if no selection or not the selected option
+    }
+}
+
+
+@if (lastAnswerCorrect.HasValue)
+{
+    if (lastAnswerCorrect.Value)
+    {
+        <p>Correct!</p>
+    }
+    else
+    {
+        <p>Incorrect! The correct answer is: @currentQuestion.Options[currentQuestion.CorrectAnswerIndex]</p>
+    }
+    <p>@lastAnswerExplanation</p>
+    <button class="custom-btn" @onclick="ProceedToNextQuestion">Next Question</button>
+}

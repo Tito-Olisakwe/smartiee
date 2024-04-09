@@ -1,0 +1,15 @@
+@page "/"
+
+@inject NavigationManager NavigationManager
+
+<h1>Welcome to Smartiee, the trivia game!</h1>
+<p>Get ready to test your knowledge across various topics and difficulties.</p>
+<button class="custom-btn" @onclick="GoToCategories">Continue</button>
+
+@code {
+    private void GoToCategories()
+    {
+        // Navigation logic to the categories page
+        NavigationManager.NavigateTo("/categories");
+    }
+}

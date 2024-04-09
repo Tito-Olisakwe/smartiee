@@ -101,3 +101,120 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
+.custom-btn {
+    color: #fff; /* Text color */
+    background-color: #0443b9; /* Blue background */
+    border: 1px solid #0443b9; /* Blue border */
+    padding: 0.5rem 1rem; /* Top and bottom padding of 0.5rem and left and right padding of 1rem */
+    border-radius: 0.25rem; /* Rounded corners of 0.25rem */
+    font-size: 1rem; /* Font size of 1rem */
+    line-height: 1.5; /* Line height of 1.5 */
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; /* Smooth transition for hover effects */
+    text-align: center; /* Center text */
+    vertical-align: middle; /* Align text vertically */
+    cursor: pointer; /* Change cursor to pointer when hovering over the button */
+    display: inline-block; /* Make the button inline-block to allow setting width and height */
+    text-decoration: none; /* Remove text underline */
+    margin: 0.5rem; /* This adds 0.5rem of space around each button */
+}
+
+    .custom-btn:hover {
+        background-color: #063998; /* Slightly darker blue on hover */
+        border-color: #063998; /* Slightly darker border color on hover */
+    }
+
+    .custom-btn:active {
+        background-color: #052767; /* Even darker blue when the button is pressed */
+        border-color: #052767; /* Even darker border color when the button is pressed */
+        box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); /* Slight shadow inside the button to give a pressed effect */
+    }
+
+
+    ul {
+        list-style-type: none; /* Removes the default list styling */
+        padding: 0; /* Removes the default padding */
+        margin: 0; /* Removes the default margin */
+    }
+    
+    ul li {
+        margin-bottom: 1rem; /* Adds some space below each list item */
+    }
+
+    ul li:first-child {
+        margin-top: 4rem; /* Adjust the value to get the desired spacing */
+    }    
+    
+    ul li button {
+        color: #fff; /* Text color */
+        background-color: #341273; /* Blue background */
+        border: 1px solid #341273; /* Blue border */
+        padding: 0.75rem 1.5rem; /* Top and bottom padding of 0.75rem and left and right padding of 1.5rem */
+        border-radius: 0.5rem; /* Rounded corners of 0.5rem */
+        font-size: 1rem; /* Font size of 1rem */
+        line-height: 1.5; /* Line height of 1.5 */
+        transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; /* Smooth transition for hover effects */
+        text-align: center; /* Center text */
+        cursor: pointer; /* Change cursor to pointer when hovering over the button */
+        display: block; /* Make the button block to occupy the full width of the list item */
+        width: 40%; /* Makes the button fill the entire width of its parent */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to lift the button off the page */
+        margin: 0.5rem 0; /* Adds margin to the top and bottom for spacing */
+    }
+    
+    ul li button:hover {
+        background-color: #281152; /* Slightly darker blue on hover */
+        border-color: #281152; /* Slightly darker border color on hover */
+    }
+
+
+    .modal {
+        display: none; /* Keep it hidden by default */
+        position: fixed; /* Stay in place */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        background-color: rgba(0,0,0,0.5); /* Semi-transparent black background */
+        display: flex; /* Enables flexbox for centering */
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        animation: fadeIn 0.3s ease-out; /* Fade-in effect */
+    }
+    
+    .modal-content {
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: 0.3rem; /* Rounded corners */
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); /* Shadow for depth */
+        padding: 1.5rem; /* Spacious padding */
+        width: 60%; /* Adjust width as needed */
+        max-width: 500px; /* Maximum width */
+        /* Centering without flexbox, remove if flexbox is enough */
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Adjust both horizontally and vertically */
+        animation: scaleUp 0.3s ease-out; /* Scale-up effect */
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    @keyframes scaleUp {
+        from { transform: scale(0.8) translate(-50%, -50%); }
+        to { transform: scale(1) translate(-50%, -50%); }
+    }
+
+    .option-correct {
+        background-color: #237d53; /* Bootstrap's 'success' green */
+        color: white;
+    }
+    
+    .option-incorrect {
+        background-color: #a41f45; /* Bootstrap's 'danger' red */
+        color: white;
+    }
+    

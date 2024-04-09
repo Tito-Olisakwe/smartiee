@@ -1,0 +1,4886 @@
+{
+    "Categories": [
+        {
+            "Id": "1",
+            "Name": "Science"
+        },
+        {
+            "Id": "2",
+            "Name": "Geography"
+        },
+        {
+            "Id": "3",
+            "Name": "Arts"
+        },
+        {
+            "Id": "4",
+            "Name": "Pop Culture"
+        },
+        {
+            "Id": "5",
+            "Name": "Sports"
+        }
+    ],
+    "Questions": [
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the boiling point of water?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "80°C",
+                "90°C",
+                "100°C",
+                "110°C"
+            ],
+            "Explanation": "The boiling point of water is 100°C at standard atmospheric pressure."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "Which planet is known as the Red Planet?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Venus",
+                "Mars",
+                "Jupiter",
+                "Saturn"
+            ],
+            "Explanation": "Mars is known as the Red Planet due to its reddish appearance, which is caused by iron oxide or rust on its surface."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What gas do plants breathe in that humans and animals breathe out?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Oxygen",
+                "Carbon Dioxide",
+                "Nitrogen",
+                "Hydrogen"
+            ],
+            "Explanation": "Plants take in carbon dioxide and release oxygen during the process of photosynthesis, which is the opposite of human and animal respiration."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "How many states of matter are there?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Four",
+                "Three",
+                "Five",
+                "Six"
+            ],
+            "Explanation": "There are four main states of matter: solid, liquid, gas, and plasma."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the center of an atom called?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Nucleus",
+                "Electron Cloud",
+                "Proton",
+                "Neutron"
+            ],
+            "Explanation": "The nucleus is the center of an atom, containing protons and neutrons."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the boiling point of water?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "80°C",
+                "90°C",
+                "100°C",
+                "110°C"
+            ],
+            "Explanation": "The boiling point of water is 100°C at standard atmospheric pressure."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "Which planet is known as the Red Planet?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Venus",
+                "Mars",
+                "Jupiter",
+                "Saturn"
+            ],
+            "Explanation": "Mars is known as the Red Planet due to its reddish appearance."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What gas do plants absorb that animals exhale?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Oxygen",
+                "Carbon Dioxide",
+                "Nitrogen",
+                "Argon"
+            ],
+            "Explanation": "Plants absorb carbon dioxide, which animals exhale, for photosynthesis."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "How many planets are in our solar system?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Eight",
+                "Nine",
+                "Seven",
+                "Ten"
+            ],
+            "Explanation": "There are eight planets in our solar system after Pluto was reclassified as a dwarf planet."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the largest organ in the human body?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Skin",
+                "Heart",
+                "Liver",
+                "Brain"
+            ],
+            "Explanation": "The skin is the largest organ in the human body, covering an area of about 2 square meters."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "Water freezes at what temperature in Celsius?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "0°C",
+                "32°C",
+                "-10°C",
+                "100°C"
+            ],
+            "Explanation": "Water freezes at 0°C or 32°F."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What type of animal is a frog?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Mammal",
+                "Amphibian",
+                "Reptile",
+                "Bird"
+            ],
+            "Explanation": "A frog is an amphibian, a type of animal that lives both in water and on land."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What does DNA stand for?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Deoxyribonucleic Acid",
+                "Dioxygen Nitrate",
+                "Diethyl Nitroamine",
+                "Dinitrogen Aerate"
+            ],
+            "Explanation": "DNA stands for Deoxyribonucleic Acid, which carries genetic instructions for the development and functioning of living organisms."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "Which of the following is not a primary color?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Red",
+                "Blue",
+                "Yellow",
+                "Green"
+            ],
+            "Explanation": "Green is not a primary color. The primary colors are red, blue, and yellow."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the hardest natural substance on Earth?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Gold",
+                "Iron",
+                "Diamond",
+                "Granite"
+            ],
+            "Explanation": "Diamond is the hardest natural substance on Earth."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the chemical symbol for gold?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Au",
+                "Ag",
+                "Fe",
+                "Cu"
+            ],
+            "Explanation": "The chemical symbol for gold is Au, derived from the Latin word \"aurum\"."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the largest planet in our solar system?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Jupiter",
+                "Saturn",
+                "Neptune",
+                "Uranus"
+            ],
+            "Explanation": "Jupiter is the largest planet in our solar system, with a diameter of about 86,881 miles."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the process by which plants make their own food called?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Photosynthesis",
+                "Respiration",
+                "Transpiration",
+                "Pollination"
+            ],
+            "Explanation": "Photosynthesis is the process by which plants use sunlight to convert carbon dioxide and water into glucose and oxygen."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the chemical symbol for water?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "H2O",
+                "CO2",
+                "O2",
+                "NaCl"
+            ],
+            "Explanation": "The chemical symbol for water is H2O, representing two hydrogen atoms and one oxygen atom."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the largest mammal in the world?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Elephant",
+                "Blue Whale",
+                "Giraffe",
+                "Hippopotamus"
+            ],
+            "Explanation": "The blue whale is the largest mammal in the world, growing up to 100 feet long and weighing as much as 200 tons."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the chemical symbol for oxygen?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "O",
+                "O2",
+                "O3",
+                "O4"
+            ],
+            "Explanation": "The chemical symbol for oxygen is O, derived from the Greek word \"oxygenes\" meaning acid-forming."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the largest organ in the human body?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Skin",
+                "Heart",
+                "Liver",
+                "Brain"
+            ],
+            "Explanation": "The skin is the largest organ in the human body, covering an area of about 2 square meters."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the smallest bone in the human body?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Stapes",
+                "Femur",
+                "Tibia",
+                "Radius"
+            ],
+            "Explanation": "The stapes bone in the middle ear is the smallest bone in the human body, measuring about 3 millimeters in length."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the chemical symbol for silver?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Ag",
+                "Au",
+                "Fe",
+                "Cu"
+            ],
+            "Explanation": "The chemical symbol for silver is Ag, derived from the Latin word \"argentum\"."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What element does 'O' represent on the periodic table?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Oxygen",
+                "Gold",
+                "Osmium",
+                "Helium"
+            ],
+            "Explanation": "‘O’ stands for Oxygen on the periodic table."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "In what layer of the Earth's atmosphere do most weather events occur?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Stratosphere",
+                "Troposphere",
+                "Mesosphere",
+                "Exosphere"
+            ],
+            "Explanation": "Most weather events occur in the Troposphere, the lowest layer of the atmosphere."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "Which vitamin is produced when the human body is exposed to sunlight?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Vitamin A",
+                "Vitamin B",
+                "Vitamin C",
+                "Vitamin D"
+            ],
+            "Explanation": "The human body produces Vitamin D when exposed to sunlight."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the most abundant gas in the Earth's atmosphere?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Oxygen",
+                "Carbon Dioxide",
+                "Argon",
+                "Nitrogen"
+            ],
+            "Explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, making it the most abundant gas."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the scientific term for a living thing?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Molecule",
+                "Organism",
+                "Compound",
+                "Element"
+            ],
+            "Explanation": "A living thing is scientifically known as an organism."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "Which molecule is primarily responsible for the greenhouse effect?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Methane",
+                "Carbon Dioxide",
+                "Nitrous Oxide",
+                "Water Vapor"
+            ],
+            "Explanation": "Carbon Dioxide is a key greenhouse gas, trapping heat in the Earth's atmosphere."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What type of rock is formed from cooling lava?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Sedimentary",
+                "Metamorphic",
+                "Igneous",
+                "Basalt"
+            ],
+            "Explanation": "Igneous rocks are formed from the solidification of molten lava or magma."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the powerhouse of the cell?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Nucleus",
+                "Ribosome",
+                "Mitochondria",
+                "Chloroplast"
+            ],
+            "Explanation": "Mitochondria are known as the powerhouse of the cell because they produce most of the cell's energy."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "Who proposed the theory of evolution by natural selection?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Isaac Newton",
+                "Albert Einstein",
+                "Charles Darwin",
+                "Gregor Mendel"
+            ],
+            "Explanation": "Charles Darwin proposed the theory of evolution by natural selection."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the chemical symbol for gold?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Au",
+                "Ag",
+                "Pb",
+                "Fe"
+            ],
+            "Explanation": "Au is the chemical symbol for gold on the periodic table."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "Which planet is closest to the sun?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Venus",
+                "Earth",
+                "Mars",
+                "Mercury"
+            ],
+            "Explanation": "Mercury is the closest planet to the sun."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "How many chromosomes do humans typically have?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "23",
+                "46",
+                "92",
+                "44"
+            ],
+            "Explanation": "Humans typically have 46 chromosomes in each cell, arranged in 23 pairs."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What force keeps the planets in orbit around the sun?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Magnetic force",
+                "Gravity",
+                "Electric force",
+                "Centrifugal force"
+            ],
+            "Explanation": "Gravity is the force that keeps planets in orbit around the sun."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the study of fungi called?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Botany",
+                "Zoology",
+                "Mycology",
+                "Ecology"
+            ],
+            "Explanation": "The study of fungi is called mycology."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What do you call a substance that cannot be broken down into simpler substances?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Compound",
+                "Molecule",
+                "Element",
+                "Atom"
+            ],
+            "Explanation": "An element is a substance that cannot be broken down into simpler substances by chemical means."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "How long does it take for the Earth to orbit the sun?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "One day",
+                "One month",
+                "One year",
+                "One decade"
+            ],
+            "Explanation": "It takes one year for the Earth to complete an orbit around the sun."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "Which layer of the Earth lies just below the crust?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Core",
+                "Mantle",
+                "Crust",
+                "Lithosphere"
+            ],
+            "Explanation": "The mantle is the layer of the Earth that lies just below the crust."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the term for animals that can live both in water and on land?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Reptiles",
+                "Mammals",
+                "Amphibians",
+                "Fish"
+            ],
+            "Explanation": "Amphibians are animals that can live both in water and on land."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "Which gas makes up the majority of the Earth's atmosphere?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Oxygen",
+                "Hydrogen",
+                "Carbon Dioxide",
+                "Nitrogen"
+            ],
+            "Explanation": "Nitrogen gas makes up the majority of the Earth's atmosphere."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the process by which plants make their food?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Respiration",
+                "Fermentation",
+                "Photosynthesis",
+                "Digestion"
+            ],
+            "Explanation": "Photosynthesis is the process by which plants make their food, using sunlight."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What unit is used to measure force?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Joule",
+                "Pascal",
+                "Newton",
+                "Watt"
+            ],
+            "Explanation": "The Newton is the unit used to measure force."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What do you call the first ten amendments to the United States Constitution?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Declaration of Independence",
+                "Emancipation Proclamation",
+                "Bill of Rights",
+                "Magna Carta"
+            ],
+            "Explanation": "The first ten amendments to the United States Constitution are known as the Bill of Rights."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "In what kind of bond do atoms share electrons?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Ionic bond",
+                "Covalent bond",
+                "Hydrogen bond",
+                "Metallic bond"
+            ],
+            "Explanation": "Atoms share electrons in a covalent bond."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "Which element has the highest electrical conductivity?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Copper",
+                "Gold",
+                "Silver",
+                "Aluminum"
+            ],
+            "Explanation": "Silver has the highest electrical conductivity of any element."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the name of the largest ocean on Earth?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Pacific Ocean",
+                "Southern Ocean"
+            ],
+            "Explanation": "The Pacific Ocean is the largest ocean on Earth."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the principle behind quantum mechanics that suggests particles exist in all states until observed?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Entanglement",
+                "Superposition",
+                "Uncertainty",
+                "Duality"
+            ],
+            "Explanation": "Superposition is a fundamental principle of quantum mechanics suggesting particles exist in multiple states until observed."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "Which chemical element has the highest boiling point?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Iron",
+                "Tungsten",
+                "Gold",
+                "Mercury"
+            ],
+            "Explanation": "Tungsten has the highest boiling point of all chemical elements."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What phenomenon explains the bending of light around obstacles?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Refraction",
+                "Diffraction",
+                "Reflection",
+                "Polarization"
+            ],
+            "Explanation": "Diffraction is the phenomenon that explains the bending of light around obstacles."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "In the context of genetics, what does 'PCR' stand for?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Polymerase Chain Reaction",
+                "Protease Critical Response",
+                "Phosphorous Carbonate Reagent",
+                "Post-Cellular Reproduction"
+            ],
+            "Explanation": "PCR stands for Polymerase Chain Reaction, a technique used to amplify segments of DNA."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "Who first proposed the concept of a geocentric universe?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Aristotle",
+                "Galileo",
+                "Copernicus",
+                "Ptolemy"
+            ],
+            "Explanation": "Ptolemy first proposed the concept of a geocentric universe, where Earth is at the center."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What type of stars are the most common in the universe?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Red giants",
+                "White dwarfs",
+                "Red dwarfs",
+                "Neutron stars"
+            ],
+            "Explanation": "Red dwarfs are the most common type of stars in the universe."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the term for the number of protons found in the nucleus of an atom?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Atomic mass",
+                "Molecular number",
+                "Atomic number",
+                "Isotope number"
+            ],
+            "Explanation": "The atomic number is the term for the number of protons in an atom's nucleus."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "Which law of thermodynamics states that the entropy of the universe is always increasing?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "First law of thermodynamics",
+                "Second law of thermodynamics",
+                "Third law of thermodynamics",
+                "Zeroth law of thermodynamics"
+            ],
+            "Explanation": "The second law of thermodynamics states that the entropy of the universe is always increasing."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the name of the largest moon of Saturn?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Europa",
+                "Ganymede",
+                "Titan",
+                "Callisto"
+            ],
+            "Explanation": "Titan is the largest moon of Saturn."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the main difference between a comet and an asteroid?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Size",
+                "Orbit",
+                "Composition",
+                "Location"
+            ],
+            "Explanation": "The main difference between a comet and an asteroid is their composition; comets are icy whereas asteroids are rocky."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "Which vitamin is essential for the coagulation of blood?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Vitamin A",
+                "Vitamin C",
+                "Vitamin D",
+                "Vitamin K"
+            ],
+            "Explanation": "Vitamin K is essential for blood coagulation."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What particle is exchanged in a strong nuclear force?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Meson",
+                "Gluon",
+                "Boson",
+                "Photon"
+            ],
+            "Explanation": "Gluons are exchanged in the strong nuclear force between quarks."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "Who discovered the electron?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Niels Bohr",
+                "J.J. Thomson",
+                "Ernest Rutherford",
+                "James Chadwick"
+            ],
+            "Explanation": "J.J. Thomson discovered the electron in 1897."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the term for when the Moon completely blocks the Sun during an eclipse?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Umbra",
+                "Penumbra",
+                "Totality",
+                "Apogee"
+            ],
+            "Explanation": "Totality is the term for when the Moon completely blocks the Sun during a solar eclipse."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "Which hormone regulates the amount of glucose in the blood?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Adrenaline",
+                "Insulin",
+                "Cortisol",
+                "Glucagon"
+            ],
+            "Explanation": "Insulin regulates the amount of glucose in the blood."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What does the 'H' in H2O stand for?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Hydrogen",
+                "Helium",
+                "Hafnium",
+                "Hematite"
+            ],
+            "Explanation": "The 'H' in H2O stands for Hydrogen."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "In what type of biome would you find the majority of Earth's biodiversity?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Desert",
+                "Tundra",
+                "Temperate Forest",
+                "Tropical Rainforest"
+            ],
+            "Explanation": "The majority of Earth's biodiversity is found in tropical rainforests."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "Which gas is a primary component of the Earth's early atmosphere but not present in large amounts today?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Oxygen",
+                "Nitrogen",
+                "Carbon Dioxide",
+                "Ammonia"
+            ],
+            "Explanation": "Ammonia was a primary component of the Earth's early atmosphere but is not present in large amounts today."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the Krebs cycle also known as?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Electron Transport Chain",
+                "Glycolysis",
+                "Citric Acid Cycle",
+                "Phosphorylation Cycle"
+            ],
+            "Explanation": "The Krebs cycle is also known as the Citric Acid Cycle."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What term describes the study of the relationship between organisms and their environment?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Evolution",
+                "Genetics",
+                "Ecology",
+                "Anthropology"
+            ],
+            "Explanation": "Ecology describes the study of the relationship between organisms and their environment."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What element is named after the creator of the periodic table?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Curium",
+                "Einsteinium",
+                "Fermium",
+                "Mendelevium"
+            ],
+            "Explanation": "Mendelevium is named after Dmitri Mendeleev, the creator of the periodic table."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the phenomenon where light slows down as it passes from air into water called?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Diffraction",
+                "Reflection",
+                "Refraction",
+                "Polarization"
+            ],
+            "Explanation": "Refraction is the phenomenon where light slows down and changes direction as it passes from air into water."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "Who formulated the laws of planetary motion?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Isaac Newton",
+                "Galileo Galilei",
+                "Johannes Kepler",
+                "Tycho Brahe"
+            ],
+            "Explanation": "Johannes Kepler formulated the laws of planetary motion in the early 17th century."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "What type of bond is formed by the attraction between oppositely charged ions?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Covalent bond",
+                "Metallic bond",
+                "Ionic bond",
+                "Hydrogen bond"
+            ],
+            "Explanation": "An ionic bond is formed by the attraction between oppositely charged ions."
+        },
+        {
+            "CategoryId": "1",
+            "Difficulty": "Hard",
+            "QuestionText": "In physics, what is the term for the capacity to do work?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Force",
+                "Energy",
+                "Power",
+                "Momentum"
+            ],
+            "Explanation": "Energy is the capacity to do work according to physics."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the capital of France?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Lyon",
+                "Paris",
+                "Marseille",
+                "Bordeaux"
+            ],
+            "Explanation": "Paris is the capital and most populous city of France."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "Which river is the longest in the world?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Amazon",
+                "Nile",
+                "Yangtze",
+                "Mississippi"
+            ],
+            "Explanation": "The Nile River is traditionally considered the longest river in the world."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the largest ocean on Earth?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Pacific Ocean",
+                "Southern Ocean"
+            ],
+            "Explanation": "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "How many continents are there?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "Explanation": "There are seven continents on Earth."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the capital of Japan?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Kyoto",
+                "Osaka",
+                "Tokyo",
+                "Hiroshima"
+            ],
+            "Explanation": "Tokyo is the capital of Japan."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "Which country is known as the Land of the Rising Sun?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "China",
+                "Japan",
+                "Thailand",
+                "South Korea"
+            ],
+            "Explanation": "Japan is known as the Land of the Rising Sun."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the largest desert in the world?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Mojave",
+                "Sahara",
+                "Kalahari",
+                "Gobi"
+            ],
+            "Explanation": "The Sahara is the largest hot desert in the world."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "In which continent is the Amazon rainforest located?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Africa",
+                "South America",
+                "Asia",
+                "Australia"
+            ],
+            "Explanation": "The Amazon rainforest is located in South America."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "Which country has the most islands in the world?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Philippines",
+                "Indonesia",
+                "Sweden",
+                "Japan"
+            ],
+            "Explanation": "Sweden has the most islands in the world."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What mountain is the tallest in the world?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "K2",
+                "Mount Everest",
+                "Kangchenjunga",
+                "Lhotse"
+            ],
+            "Explanation": "Mount Everest is the tallest mountain in the world."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "Which is the smallest country in the world?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Monaco",
+                "Nauru",
+                "Tuvalu",
+                "Vatican City"
+            ],
+            "Explanation": "Vatican City is the smallest country in the world."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the capital of Australia?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Sydney",
+                "Melbourne",
+                "Perth",
+                "Canberra"
+            ],
+            "Explanation": "Canberra is the capital of Australia."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "Which is the longest river in the USA?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Colorado",
+                "Missouri",
+                "Mississippi",
+                "Rio Grande"
+            ],
+            "Explanation": "The Mississippi River is the longest river in the USA."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What city is known as the City of Love?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Venice",
+                "Paris",
+                "Rome",
+                "Amsterdam"
+            ],
+            "Explanation": "Paris is known as the City of Love."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "Which country is the largest by land area?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Russia",
+                "Canada",
+                "China",
+                "United States"
+            ],
+            "Explanation": "Russia is the largest country by land area."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the capital of Canada?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Ottawa",
+                "Toronto",
+                "Montreal",
+                "Vancouver"
+            ],
+            "Explanation": "Ottawa is the capital of Canada."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "Which continent is the largest?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Asia",
+                "Africa",
+                "North America",
+                "Antarctica"
+            ],
+            "Explanation": "Asia is the largest continent by land area."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the name of the sea bordered by Europe to the north and Africa to the south?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Baltic Sea",
+                "Black Sea",
+                "Mediterranean Sea",
+                "Red Sea"
+            ],
+            "Explanation": "The Mediterranean Sea is bordered by Europe to the north and Africa to the south."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the capital of Italy?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Milan",
+                "Venice",
+                "Rome",
+                "Florence"
+            ],
+            "Explanation": "Rome is the capital of Italy."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "Which country is not part of the United Kingdom?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Scotland",
+                "Wales",
+                "Northern Ireland",
+                "Ireland"
+            ],
+            "Explanation": "Ireland is not part of the United Kingdom."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the largest country in South America?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Brazil",
+                "Argentina",
+                "Peru",
+                "Colombia"
+            ],
+            "Explanation": "Brazil is the largest country in South America."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What city is the capital of Russia?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Saint Petersburg",
+                "Moscow",
+                "Kazan",
+                "Vladivostok"
+            ],
+            "Explanation": "Moscow is the capital of Russia."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "Which country is the coldest in the world?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Russia",
+                "Canada",
+                "Greenland",
+                "Antarctica"
+            ],
+            "Explanation": "Antarctica is the coldest place in the world, though it's a continent, not a country."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "What river flows through Paris?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Rhine",
+                "Danube",
+                "Seine",
+                "Thames"
+            ],
+            "Explanation": "The Seine River flows through Paris."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Easy",
+            "QuestionText": "Which ocean lies on the east coast of the United States?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Pacific Ocean",
+                "Atlantic Ocean",
+                "Arctic Ocean",
+                "Indian Ocean"
+            ],
+            "Explanation": "The Atlantic Ocean lies on the east coast of the United States."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "Which country has the longest coastline in the world?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Canada",
+                "Australia",
+                "Russia",
+                "Indonesia"
+            ],
+            "Explanation": "Canada has the longest coastline in the world, bordering the Atlantic, Pacific, and Arctic Oceans."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the capital city of New Zealand?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Auckland",
+                "Christchurch",
+                "Wellington",
+                "Dunedin"
+            ],
+            "Explanation": "Wellington is the capital city of New Zealand."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "The Great Barrier Reef is off the coast of which Australian state?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "New South Wales",
+                "Queensland",
+                "Victoria",
+                "Tasmania"
+            ],
+            "Explanation": "The Great Barrier Reef is off the coast of Queensland, Australia."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "Mount Kilimanjaro is located in which country?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Kenya",
+                "Ethiopia",
+                "Tanzania",
+                "Uganda"
+            ],
+            "Explanation": "Mount Kilimanjaro is located in Tanzania."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "Which river forms the border between the United States and Mexico?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Colorado River",
+                "Rio Grande",
+                "Mississippi",
+                "Amazon"
+            ],
+            "Explanation": "The Rio Grande river forms part of the border between the United States and Mexico."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the smallest continent by land area?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Antarctica",
+                "Europe",
+                "Australia",
+                "South America"
+            ],
+            "Explanation": "Australia is the smallest continent by land area."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "Which European country has the highest number of volcanoes?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Iceland",
+                "Italy",
+                "France",
+                "Greece"
+            ],
+            "Explanation": "Italy has the highest number of volcanoes in Europe."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the name of the desert located in northern Chile?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Sahara",
+                "Atacama",
+                "Kalahari",
+                "Mojave"
+            ],
+            "Explanation": "The Atacama Desert is located in northern Chile."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "The Pyrenees mountain range separates which two European countries?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "France and Spain",
+                "Italy and Switzerland",
+                "Germany and Austria",
+                "Norway and Sweden"
+            ],
+            "Explanation": "The Pyrenees mountain range separates France and Spain."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "Which country is the largest producer of coffee in the world?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Colombia",
+                "Brazil",
+                "Vietnam",
+                "Ethiopia"
+            ],
+            "Explanation": "Brazil is the largest producer of coffee in the world."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the name of the largest island in the world?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Greenland",
+                "New Guinea",
+                "Borneo",
+                "Madagascar"
+            ],
+            "Explanation": "Greenland is the largest island in the world."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "Which U.S. state is known as the 'Sunshine State'?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "California",
+                "Florida",
+                "Hawaii",
+                "Texas"
+            ],
+            "Explanation": "Florida is known as the 'Sunshine State'."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the deepest lake in the world?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Lake Superior",
+                "Lake Tanganyika",
+                "Lake Baikal",
+                "Caspian Sea"
+            ],
+            "Explanation": "Lake Baikal in Siberia is the deepest lake in the world."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "Which Asian country is both the smallest and the most densely populated?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Singapore",
+                "Maldives",
+                "Bahrain",
+                "Monaco"
+            ],
+            "Explanation": "Singapore is both the smallest and the most densely populated country in Asia."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "The Suez Canal connects which two seas?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "North Sea and Baltic Sea",
+                "Mediterranean and Red Sea",
+                "Red Sea and Arabian Sea",
+                "Atlantic and Pacific Oceans"
+            ],
+            "Explanation": "The Suez Canal connects the Mediterranean Sea and the Red Sea."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "Which African country was formerly known as Abyssinia?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Ethiopia",
+                "Eritrea",
+                "Nigeria",
+                "Zimbabwe"
+            ],
+            "Explanation": "Ethiopia was formerly known as Abyssinia."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the capital of the Philippines?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Manila",
+                "Cebu City",
+                "Davao",
+                "Quezon City"
+            ],
+            "Explanation": "Manila is the capital of the Philippines."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "Which city is known as the Venice of the North?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Stockholm",
+                "Amsterdam",
+                "Bruges",
+                "Saint Petersburg"
+            ],
+            "Explanation": "Amsterdam is known as the Venice of the North due to its extensive canal system."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "What country is the Serengeti National Park located in?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Kenya",
+                "Tanzania",
+                "South Africa",
+                "Botswana"
+            ],
+            "Explanation": "The Serengeti National Park is located in Tanzania."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "The term 'Scandinavia' traditionally refers to which three countries?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Norway, Denmark, Sweden",
+                "Finland, Iceland"
+            ],
+            "Explanation": "Scandinavia traditionally refers to Norway, Denmark, and Sweden."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the largest lake in Africa?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Lake Tanganyika",
+                "Lake Victoria",
+                "Lake Malawi",
+                "Lake Turkana"
+            ],
+            "Explanation": "Lake Victoria is the largest lake in Africa by area."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "Which country is divided into 26 cantons?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Austria",
+                "Germany",
+                "Switzerland",
+                "Belgium"
+            ],
+            "Explanation": "Switzerland is divided into 26 cantons."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "What natural wonder is named after aviator Jimmy Angel?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Victoria Falls",
+                "Niagara Falls",
+                "Angel Falls",
+                "Iguazu Falls"
+            ],
+            "Explanation": "Angel Falls in Venezuela is named after aviator Jimmy Angel."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the driest continent?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Africa",
+                "Australia",
+                "Antarctica",
+                "Asia"
+            ],
+            "Explanation": "Antarctica is the driest continent."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Medium",
+            "QuestionText": "In which country can you visit Machu Picchu?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Bolivia",
+                "Peru",
+                "Ecuador",
+                "Colombia"
+            ],
+            "Explanation": "Machu Picchu is located in Peru."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "Which country experiences the most tornadoes per year?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "United States",
+                "Australia",
+                "Canada",
+                "Bangladesh"
+            ],
+            "Explanation": "The United States experiences the most tornadoes annually, particularly in the area known as Tornado Alley."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the name of the longest mountain range in South America?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Andes",
+                "Rocky Mountains",
+                "Sierra Nevada",
+                "Appalachian Mountains"
+            ],
+            "Explanation": "The Andes is the longest continental mountain range in the world, located in South America."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "Which city is considered the birthplace of democracy?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Rome",
+                "Athens",
+                "London",
+                "Paris"
+            ],
+            "Explanation": "Athens is considered the birthplace of democracy, dating back to the 5th century BC."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "The Tropic of Capricorn crosses which of these African countries?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Egypt",
+                "South Africa",
+                "Namibia",
+                "Kenya"
+            ],
+            "Explanation": "The Tropic of Capricorn crosses Namibia among other countries in the southern hemisphere."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the primary reason for the seasons on Earth?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Earth's orbit around the sun",
+                "The tilt of Earth's axis",
+                "The distance between Earth and the sun",
+                "Solar flares"
+            ],
+            "Explanation": "The primary reason for the seasons on Earth is the tilt of its axis, causing varying sunlight distribution throughout the year."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "Lake Titicaca is located on the border of which two countries?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Argentina and Chile",
+                "Peru and Bolivia",
+                "Brazil and Venezuela",
+                "Colombia and Ecuador"
+            ],
+            "Explanation": "Lake Titicaca is situated on the border between Peru and Bolivia."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the capital of Mongolia?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Ulaanbaatar",
+                "Astana",
+                "Bishkek",
+                "Thimphu"
+            ],
+            "Explanation": "Ulaanbaatar is the capital of Mongolia."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "What phenomenon causes the Northern Lights?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Lunar reflection",
+                "Solar winds",
+                "Earth's magnetic field",
+                "Oceanic reflections"
+            ],
+            "Explanation": "The Northern Lights are caused by solar winds that interact with the Earth's magnetic field."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "Which desert is known for having the highest sand dunes in the world?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Sahara Desert",
+                "Arabian Desert",
+                "Namib Desert",
+                "Gobi Desert"
+            ],
+            "Explanation": "The Namib Desert is known for having the highest sand dunes in the world."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the only sea without any coasts?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Dead Sea",
+                "Mediterranean Sea",
+                "Sargasso Sea",
+                "Caribbean Sea"
+            ],
+            "Explanation": "The Sargasso Sea is the only sea on Earth without a land boundary."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "Which river is known as the \"River of Five Colors\"?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Amazon River",
+                "Nile River",
+                "Caño Cristales",
+                "Danube River"
+            ],
+            "Explanation": "Caño Cristales in Colombia is known as the \"River of Five Colors\" due to its vibrant underwater hues."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the oldest continuously inhabited city in the world?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Jerusalem",
+                "Damascus",
+                "Athens",
+                "Byblos"
+            ],
+            "Explanation": "Damascus is often cited as the oldest continuously inhabited city in the world."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "Which country has the most natural lakes?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Canada",
+                "Russia",
+                "Sweden",
+                "United States"
+            ],
+            "Explanation": "Canada has the highest number of natural lakes in the world."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "In which country can you find the \"Door to Hell,\" a natural gas field that has been burning since 1971?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Iran",
+                "Kazakhstan",
+                "Turkmenistan",
+                "Uzbekistan"
+            ],
+            "Explanation": "The \"Door to Hell\" is a natural gas field in Derweze, Turkmenistan, that has been burning since 1971."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the driest place on Earth?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Sahara Desert",
+                "Mojave Desert",
+                "Atacama Desert",
+                "Antarctic Dry Valleys"
+            ],
+            "Explanation": "The Atacama Desert is considered the driest place on Earth, with some parts receiving almost no rainfall."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "Which country is both in Eastern Europe and Western Asia?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Russia",
+                "Turkey",
+                "Kazakhstan",
+                "Georgia"
+            ],
+            "Explanation": "Turkey is geographically located in both Eastern Europe and Western Asia."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the largest coral reef system in the world?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "The Great Barrier Reef",
+                "Belize Barrier Reef",
+                "Red Sea Coral Reef",
+                "New Caledonia Barrier Reef"
+            ],
+            "Explanation": "The Great Barrier Reef is the world's largest coral reef system, located in the Coral Sea off the coast of Queensland, Australia."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "Vesuvius, a volcano that famously erupted in 79 AD, is located near which Italian city?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Rome",
+                "Naples",
+                "Florence",
+                "Venice"
+            ],
+            "Explanation": "Mount Vesuvius is near Naples, Italy, and is famous for its eruption that destroyed Pompeii and Herculaneum."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the term for a narrow strip of land connecting two larger land areas, usually with water on either side?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Peninsula",
+                "Isthmus",
+                "Archipelago",
+                "Atoll"
+            ],
+            "Explanation": "An isthmus is a narrow strip of land with sea on either side, forming a link between two larger areas of land."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "Which country is known for having a pink lake, Lake Hillier?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Australia",
+                "Canada",
+                "Senegal",
+                "Mexico"
+            ],
+            "Explanation": "Lake Hillier, known for its distinctive pink hue, is located on Middle Island in Western Australia."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "The Kalahari Desert is primarily in which country?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Namibia",
+                "South Africa",
+                "Botswana",
+                "Zimbabwe"
+            ],
+            "Explanation": "The Kalahari Desert spans several countries, but the largest part is in Botswana."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the only continent that lies in all four hemispheres?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Africa",
+                "Asia",
+                "Australia",
+                "South America"
+            ],
+            "Explanation": "Africa is the only continent that lies in the Northern, Southern, Eastern, and Western Hemispheres."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "Which city is traditionally considered the cultural capital of Russia?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Moscow",
+                "Saint Petersburg",
+                "Novosibirsk",
+                "Yekaterinburg"
+            ],
+            "Explanation": "Saint Petersburg is often considered the cultural capital of Russia."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the largest peninsula in the world?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Arabian Peninsula",
+                "Scandinavian Peninsula",
+                "Iberian Peninsula",
+                "Indian Peninsula"
+            ],
+            "Explanation": "The Arabian Peninsula is the largest peninsula in the world."
+        },
+        {
+            "CategoryId": "2",
+            "Difficulty": "Hard",
+            "QuestionText": "Which island is divided among three countries?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Borneo",
+                "New Guinea",
+                "Hispaniola",
+                "Cyprus"
+            ],
+            "Explanation": "Borneo is divided among Indonesia, Malaysia, and Brunei."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "Who painted the Mona Lisa?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Leonardo da Vinci",
+                "Michelangelo",
+                "Raphael",
+                "Donatello"
+            ],
+            "Explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the art of paper folding called?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Origami",
+                "Calligraphy",
+                "Sculpture",
+                "Pottery"
+            ],
+            "Explanation": "Origami is the Japanese art of folding paper into decorative shapes and figures."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "Which period is Vincent van Gogh associated with?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Renaissance",
+                "Baroque",
+                "Post-Impressionism",
+                "Romanticism"
+            ],
+            "Explanation": "Vincent van Gogh is a key figure in the Post-Impressionist movement."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "What type of art did Andy Warhol produce?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Abstract Expressionism",
+                "Surrealism",
+                "Pop Art",
+                "Cubism"
+            ],
+            "Explanation": "Andy Warhol was a leading figure in the visual art movement known as Pop Art."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "The Sistine Chapel ceiling was painted by whom?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Leonardo da Vinci",
+                "Michelangelo",
+                "Raphael",
+                "Caravaggio"
+            ],
+            "Explanation": "Michelangelo painted the ceiling of the Sistine Chapel in Vatican City."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the main subject of the painting \"The Starry Night\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "A night sky",
+                "A river",
+                "A cityscape",
+                "A portrait"
+            ],
+            "Explanation": "\"The Starry Night\" by Vincent van Gogh depicts a swirling night sky over a small town."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "What material is commonly used in sculpture?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Clay",
+                "Marble",
+                "Bronze",
+                "Wood"
+            ],
+            "Explanation": "Bronze is a common material used in sculpture for its durability and strength."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "Where is the Louvre Museum located?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "London",
+                "New York",
+                "Paris",
+                "Rome"
+            ],
+            "Explanation": "The Louvre Museum is located in Paris, France, and is one of the world's largest art museums."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "What does the term \"Renaissance\" mean?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Rebirth",
+                "Revolution",
+                "Enlightenment",
+                "Discovery"
+            ],
+            "Explanation": "The Renaissance, meaning \"rebirth,\" was a period of revival in art, culture, and learning in Europe."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "Who is known for the painting \"The Persistence of Memory\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Pablo Picasso",
+                "Salvador Dalí",
+                "Frida Kahlo",
+                "Claude Monet"
+            ],
+            "Explanation": "Salvador Dalí painted \"The Persistence of Memory,\" famous for its melting clocks."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "What art movement is Claude Monet associated with?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Cubism",
+                "Impressionism",
+                "Expressionism",
+                "Surrealism"
+            ],
+            "Explanation": "Claude Monet is a founding figure of the Impressionism movement."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "The sculpture \"David\" was created by which artist?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Leonardo da Vinci",
+                "Michelangelo",
+                "Donatello",
+                "Bernini"
+            ],
+            "Explanation": "Michelangelo's \"David\" is one of the most renowned sculptures of the Renaissance."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "In which city can you visit the Van Gogh Museum?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Paris",
+                "London",
+                "Amsterdam",
+                "Berlin"
+            ],
+            "Explanation": "The Van Gogh Museum is located in Amsterdam, Netherlands, and houses the largest collection of Vincent van Gogh's artworks."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the art and science of designing buildings called?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Sculpture",
+                "Painting",
+                "Architecture",
+                "Pottery"
+            ],
+            "Explanation": "Architecture is the art and science of designing and constructing buildings."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "Who composed the Four Seasons?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Ludwig van Beethoven",
+                "Antonio Vivaldi",
+                "Johann Sebastian Bach",
+                "Wolfgang Amadeus Mozart"
+            ],
+            "Explanation": "Antonio Vivaldi composed the Four Seasons, which is a group of four violin concerti."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "What does \"abstract art\" focus on?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Realistic images",
+                "Forms and colors",
+                "Historical events",
+                "Portraits"
+            ],
+            "Explanation": "Abstract art focuses on the use of forms and colors rather than depicting realistic images."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "The \"Ballets Russes\" was a company associated with which art form?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Opera",
+                "Ballet",
+                "Theater",
+                "Painting"
+            ],
+            "Explanation": "The \"Ballets Russes\" was an influential ballet company in the early 20th century."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "Which artist is known for cut-out art?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Pablo Picasso",
+                "Henri Matisse",
+                "Andy Warhol",
+                "Georgia O'Keeffe"
+            ],
+            "Explanation": "Henri Matisse is known for his innovative use of cut-out art later in his career."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the term for a three-dimensional artwork created by shaping or combining materials?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Sculpture",
+                "Fresco",
+                "Mosaic",
+                "Tapestry"
+            ],
+            "Explanation": "Sculpture is the art of making two- or three-dimensional representative or abstract forms."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "Who wrote the play \"Hamlet\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "William Shakespeare",
+                "Charles Dickens",
+                "Leo Tolstoy",
+                "Mark Twain"
+            ],
+            "Explanation": "William Shakespeare is the playwright of \"Hamlet,\" one of his most famous works."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the Mona Lisa famous for?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Her smile",
+                "Her dress",
+                "The background",
+                "The frame"
+            ],
+            "Explanation": "The Mona Lisa by Leonardo da Vinci is famous for her enigmatic smile."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "In art, what is a medium?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Style of painting",
+                "Material used to create art",
+                "A type of brush",
+                "A historical period"
+            ],
+            "Explanation": "In art, a medium refers to the material or technique used by an artist to create their work."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "Which museum is famous for housing the \"Mona Lisa\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "The Louvre",
+                "The British Museum",
+                "The Met",
+                "The Prado"
+            ],
+            "Explanation": "The Mona Lisa is housed in the Louvre Museum in Paris."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "What does the term \"baroque\" refer to?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "A color palette",
+                "A style of art",
+                "A brush technique",
+                "A type of sculpture"
+            ],
+            "Explanation": "The Baroque period was known for its extravagant and detailed artistic style."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Easy",
+            "QuestionText": "Who is considered the father of Impressionism?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Claude Monet",
+                "Edgar Degas",
+                "Camille Pissarro",
+                "Pierre-Auguste Renoir"
+            ],
+            "Explanation": "Claude Monet is considered one of the founders and the most consistent and prolific practitioner of the Impressionism movement."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "Which artist is famous for the sculpture \"The Thinker\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Michelangelo",
+                "Auguste Rodin",
+                "Gian Lorenzo Bernini",
+                "Donatello"
+            ],
+            "Explanation": "Auguste Rodin created \"The Thinker,\" a bronze sculpture that depicts a figure deep in thought."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "In which country did the Baroque art movement originate?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Italy",
+                "France",
+                "Netherlands",
+                "Spain"
+            ],
+            "Explanation": "The Baroque art movement began in Italy in the early 17th century."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "What does the term \"surrealism\" refer to in art?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "An artistic style focusing on light and color",
+                "An art movement emphasizing speed and technology",
+                "An artistic attempt to express the subconscious mind",
+                "A technique in sculpture"
+            ],
+            "Explanation": "Surrealism is an art movement that sought to release the creative potential of the unconscious mind."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "Who painted \"The Birth of Venus\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Leonardo da Vinci",
+                "Sandro Botticelli",
+                "Titian",
+                "Raphael"
+            ],
+            "Explanation": "\"The Birth of Venus\" was painted by Sandro Botticelli in the mid 1480s."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "The term \"Impasto\" is used to describe what in painting?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "A technique for mixing colors",
+                "A way to prepare the canvas",
+                "Thick application of paint",
+                "A brush stroke technique"
+            ],
+            "Explanation": "Impasto refers to a technique used in painting, where paint is laid on an area of the surface in very thick layers."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "Which of the following is not a primary color?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Red",
+                "Blue",
+                "Yellow",
+                "Green"
+            ],
+            "Explanation": "Green is not a primary color; the primary colors are red, blue, and yellow."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "Who is the author of \"The Art of War\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Sun Tzu",
+                "Confucius",
+                "Laozi",
+                "Machiavelli"
+            ],
+            "Explanation": "\"The Art of War\" is an ancient Chinese military treatise written by Sun Tzu."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "\"Guernica,\" a powerful political statement about the Spanish Civil War, was painted by which artist?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Salvador Dalí",
+                "Pablo Picasso",
+                "Joan Miró",
+                "Francisco Goya"
+            ],
+            "Explanation": "Pablo Picasso painted \"Guernica\" in 1937 to depict the horrors of the Spanish Civil War."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "What artistic style is characterized by exaggerated motion and clear, easily interpreted detail?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Rococo",
+                "Baroque",
+                "Neoclassicism",
+                "Cubism"
+            ],
+            "Explanation": "The Baroque style is known for its exaggerated motion and detail, intended to produce drama and tension."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "Who composed the music for the ballet \"The Nutcracker\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Igor Stravinsky",
+                "Pyotr Ilyich Tchaikovsky",
+                "Sergei Prokofiev",
+                "George Balanchine"
+            ],
+            "Explanation": "Pyotr Ilyich Tchaikovsky composed the music for \"The Nutcracker\" ballet in 1892."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "Which city is known as the world capital of design and fashion?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Paris",
+                "New York",
+                "Milan",
+                "London"
+            ],
+            "Explanation": "Milan is often referred to as the world capital of design and fashion."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "In photography, what does the term \"bokeh\" refer to?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "The sharpness of an image",
+                "The contrast between light and dark",
+                "The aesthetic quality of the blur produced in the out-of-focus parts of an image",
+                "The color saturation in a photograph"
+            ],
+            "Explanation": "Bokeh refers to the aesthetic quality of the blur produced in the out-of-focus parts of an image."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "Who is known as the \"Father of Modern Sculpture\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Auguste Rodin",
+                "Donatello",
+                "Alberto Giacometti",
+                "Henry Moore"
+            ],
+            "Explanation": "Auguste Rodin is considered the \"Father of Modern Sculpture\" due to his expressive use of form and detail."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the main theme of the Renaissance art?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Religion",
+                "Humanism",
+                "Nature",
+                "Abstract concepts"
+            ],
+            "Explanation": "Renaissance art focused on humanism, the emphasis on the importance of the individual and classical learning."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "The architectural style known as \"Gothic\" originated in which century?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "10th Century",
+                "12th Century",
+                "14th Century",
+                "16th Century"
+            ],
+            "Explanation": "The Gothic architectural style originated in the 12th Century, characterized by pointed arches, ribbed vaults, and flying buttresses."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "Which artist is known for the painting series featuring water lilies?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Claude Monet",
+                "Vincent van Gogh",
+                "Paul Cézanne",
+                "Georges Seurat"
+            ],
+            "Explanation": "Claude Monet is famous for his series of paintings featuring water lilies, inspired by his garden in Giverny."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "What does the term \"Rococo\" refer to?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "A technique in sculpture",
+                "A style of abstract painting",
+                "A style of art known for its elaborate ornamentation, light colors, and use of curved lines",
+                "A movement in modern architecture"
+            ],
+            "Explanation": "Rococo is an 18th-century artistic movement and style, known for its elaborate ornamentation, light colors, and use of curved lines."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "In which art form is \"terracotta\" most commonly used?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Painting",
+                "Sculpture",
+                "Architecture",
+                "Textile"
+            ],
+            "Explanation": "Terracotta, a type of earthenware, is most commonly used in sculpture and pottery."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "\"The Magic Flute\" is an opera by which composer?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Ludwig van Beethoven",
+                "Wolfgang Amadeus Mozart",
+                "Giuseppe Verdi",
+                "Richard Wagner"
+            ],
+            "Explanation": "\"The Magic Flute\" is an opera by Wolfgang Amadeus Mozart, first performed in 1791."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "Art Nouveau was a reaction against what?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "The minimalism of modern art",
+                "The complexity of Renaissance art",
+                "The academic art, industrialization, and historical styles of the 19th century",
+                "The formalism of Neoclassicism"
+            ],
+            "Explanation": "Art Nouveau was a reaction against the academic art, industrialization, and historical styles prevalent in the 19th century."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "The famous painting \"American Gothic\" was created by which artist?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Edward Hopper",
+                "Grant Wood",
+                "Norman Rockwell",
+                "Andrew Wyeth"
+            ],
+            "Explanation": "Grant Wood painted \"American Gothic,\" one of the most familiar images in 20th-century American art."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "Katsushika Hokusai is best known for his works in which genre of Japanese art?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Ikebana",
+                "Ukiyo-e",
+                "Origami",
+                "Kabuki"
+            ],
+            "Explanation": "Katsushika Hokusai is best known for his works in the Ukiyo-e genre, a style of Japanese woodblock prints."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "Which art movement is characterized by a fascination with dynamic motion and machinery?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Dadaism",
+                "Futurism",
+                "Surrealism",
+                "Art Deco"
+            ],
+            "Explanation": "Futurism is an artistic and social movement that emphasized speed, technology, and objects such as the car, the airplane, and the industrial city."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "Who is the author of \"No Longer Human\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Haruki Murakami",
+                "Osamu Dazai",
+                "Kenzaburo Oe",
+                "Yukio Mishima"
+            ],
+            "Explanation": "Osamu Dazai is the author of \"No Longer Human,\" considered one of the foremost fiction writers of 20th-century Japan."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Medium",
+            "QuestionText": "The fresco technique is associated with which medium?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Canvas",
+                "Wood",
+                "Plaster",
+                "Silk"
+            ],
+            "Explanation": "Fresco is a technique of mural painting executed upon freshly laid (\"wet\") lime plaster."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "Who sculpted \"The Gates of Hell\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Auguste Rodin",
+                "Gian Lorenzo Bernini",
+                "Michelangelo",
+                "Rodin"
+            ],
+            "Explanation": "Auguste Rodin created \"The Gates of Hell,\" which features over 200 figures for a never-completed museum door."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "The Dada art movement was formed as a reaction to which event?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "The Industrial Revolution",
+                "World War I",
+                "The French Revolution",
+                "World War II"
+            ],
+            "Explanation": "Dada emerged in response to the horrors and folly of World War I, emphasizing absurdity and anti-art sentiments."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "Which artist is associated with the term \"action painting\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Jackson Pollock",
+                "Vincent van Gogh",
+                "Pablo Picasso",
+                "Henri Matisse"
+            ],
+            "Explanation": "Jackson Pollock is known for his action painting technique, part of the Abstract Expressionist movement."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "What does the architectural term \"cantilever\" refer to?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "A type of arch",
+                "A long projecting beam or girder fixed at only one end",
+                "A method of building with clay",
+                "A decorative column"
+            ],
+            "Explanation": "A cantilever is a rigid structural element that extends horizontally and is supported at only one end."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "Who wrote the influential text \"Concerning the Spiritual in Art\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Wassily Kandinsky",
+                "Piet Mondrian",
+                "Paul Klee",
+                "Kazimir Malevich"
+            ],
+            "Explanation": "Wassily Kandinsky wrote \"Concerning the Spiritual in Art,\" exploring the artist's inner necessity to create."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "The term \"en plein air\" refers to what?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Sculpting with natural materials",
+                "Painting outdoors",
+                "Sketching in darkness",
+                "Photography in motion"
+            ],
+            "Explanation": "\"En plein air\" is a French expression that means \"in the open air,\" used to describe the act of painting outdoors."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "Which art movement is Marc Chagall associated with?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Fauvism",
+                "Cubism",
+                "Surrealism",
+                "Expressionism"
+            ],
+            "Explanation": "Marc Chagall's works are associated with Surrealism, known for his dream-like scenes blending fantasy and reality."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "In music, what does \"fortissimo\" mean?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Very fast",
+                "Very loud",
+                "Very soft",
+                "With emphasis"
+            ],
+            "Explanation": "\"Fortissimo\" is a musical term indicating that a piece should be played very loudly."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "\"The School of Athens\" fresco is located in which city?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Athens",
+                "Rome",
+                "Florence",
+                "Vatican City"
+            ],
+            "Explanation": "\"The School of Athens\" by Raphael is located in the Vatican's Apostolic Palace, in Vatican City."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the primary characteristic of Byzantine art?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Use of gold and religious themes",
+                "Abstract figures",
+                "Landscape painting",
+                "Secular themes"
+            ],
+            "Explanation": "Byzantine art is noted for its use of gold backgrounds and religious themes."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "Egon Schiele was a protégé of which famous artist?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Gustav Klimt",
+                "Pablo Picasso",
+                "Vincent van Gogh",
+                "Wassily Kandinsky"
+            ],
+            "Explanation": "Egon Schiele was a protégé of Gustav Klimt, both of whom were significant figures in early 20th-century art."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "Which architect famously said \"Less is more\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Frank Lloyd Wright",
+                "Ludwig Mies van der Rohe",
+                "Le Corbusier",
+                "Zaha Hadid"
+            ],
+            "Explanation": "Ludwig Mies van der Rohe is credited with the saying \"Less is more,\" reflecting his minimalist architectural style."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "Artemisia Gentileschi was an important painter during which artistic period?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Renaissance",
+                "Baroque",
+                "Romanticism",
+                "Rococo"
+            ],
+            "Explanation": "Artemisia Gentileschi was one of the most accomplished painters in the generation following Caravaggio, during the Baroque period."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "The \"Blue Rider\" was a collective founded by which two artists?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Pablo Picasso and Georges Braque",
+                "Wassily Kandinsky and Franz Marc",
+                "Claude Monet and Pierre-Auguste Renoir",
+                "Henri Matisse and André Derain"
+            ],
+            "Explanation": "The \"Blue Rider\" was an art collective founded by Wassily Kandinsky and Franz Marc, focusing on expressionist art."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the art principle that describes the path the viewer’s eye takes through the artwork?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Balance",
+                "Movement",
+                "Contrast",
+                "Pattern"
+            ],
+            "Explanation": "Movement in art refers to the path the viewer's eye follows through an artwork, guided by lines, edges, shape, and color."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "\"The Third of May 1808\" by Francisco Goya depicts what event?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "The signing of the Declaration of Independence",
+                "The execution of Spanish resistors by French soldiers",
+                "Napoleon's coronation",
+                "The Battle of Waterloo"
+            ],
+            "Explanation": "\"The Third of May 1808\" depicts the execution of Spanish resistors by French soldiers during the Peninsular War."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "What is chiaroscuro?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "A type of sculpture",
+                "The treatment of light and shade in drawing and painting",
+                "A color painting technique",
+                "A method of engraving"
+            ],
+            "Explanation": "Chiaroscuro refers to the use of strong contrasts between light and dark to achieve a sense of volume in modelling three-dimensional objects and figures."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "Who designed the Vietnam Veterans Memorial in Washington, D.C.?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Frank Gehry",
+                "Maya Lin",
+                "I.M. Pei",
+                "Richard Meier"
+            ],
+            "Explanation": "Maya Lin designed the Vietnam Veterans Memorial, known for its minimalist design."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "Minimalism in art and music emerged in which century?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "18th",
+                "19th",
+                "20th",
+                "21st"
+            ],
+            "Explanation": "Minimalism, characterized by an extreme spareness and simplicity, emerged in the mid-20th century."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "Which composer is known for the piece \"Clair de Lune\"?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Ludwig van Beethoven",
+                "Johann Sebastian Bach",
+                "Claude Debussy",
+                "Erik Satie"
+            ],
+            "Explanation": "\"Clair de Lune\" is one of the most famous pieces by Claude Debussy, a French composer."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "The Guggenheim Museum in Bilbao, Spain, was designed by which architect?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Frank Lloyd Wright",
+                "Frank Gehry",
+                "I.M. Pei",
+                "Santiago Calatrava"
+            ],
+            "Explanation": "The Guggenheim Museum in Bilbao, Spain, is a renowned example of contemporary architecture designed by Frank Gehry."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "In which decade did Pop Art become prominent?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "1940s",
+                "1950s",
+                "1960s",
+                "1970s"
+            ],
+            "Explanation": "Pop Art emerged in the late 1950s and became prominent in the 1960s, challenging traditions of fine art."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "Henri Cartier-Bresson is renowned for his work in which field?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Painting",
+                "Sculpture",
+                "Photography",
+                "Printmaking"
+            ],
+            "Explanation": "Henri Cartier-Bresson is known as a pioneer in street photography and for the concept of the \"decisive moment.\""
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the main feature of Gothic architecture?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Domes",
+                "Pointed arches",
+                "Rectangular structures",
+                "Ornate pillars"
+            ],
+            "Explanation": "Pointed arches are a main feature of Gothic architecture, allowing for greater height and light in structures."
+        },
+        {
+            "CategoryId": "3",
+            "Difficulty": "Hard",
+            "QuestionText": "Albrecht Dürer was a master in which of the following mediums?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Oil painting",
+                "Sculpture",
+                "Printmaking",
+                "Watercolor"
+            ],
+            "Explanation": "Albrecht Dürer was renowned for his work in printmaking, particularly in engravings and woodcuts."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "What TV show features characters named Sheldon, Leonard, Penny, and Howard?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Friends",
+                "The Big Bang Theory",
+                "Seinfeld",
+                "The Office"
+            ],
+            "Explanation": "\"The Big Bang Theory\" is a popular sitcom that centers around a group of friends who are scientists and an aspiring actress."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Which artist is known for the hit song \"Shape of You\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Ed Sheeran",
+                "Justin Bieber",
+                "Drake",
+                "Taylor Swift"
+            ],
+            "Explanation": "Ed Sheeran released \"Shape of You\" in January 2017, and it quickly became a global hit."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "In which movie franchise would you find the character Jack Sparrow?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Harry Potter",
+                "Pirates of the Caribbean",
+                "Star Wars",
+                "The Lord of the Rings"
+            ],
+            "Explanation": "Captain Jack Sparrow is a central character in the \"Pirates of the Caribbean\" movie series, portrayed by Johnny Depp."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Who wrote the Harry Potter series?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "J.K. Rowling",
+                "Stephen King",
+                "Suzanne Collins",
+                "George R.R. Martin"
+            ],
+            "Explanation": "J.K. Rowling is the author of the highly successful Harry Potter series, which has captivated audiences around the world."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "What social media platform is known for its 140-character message limit?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Facebook",
+                "Instagram",
+                "Twitter",
+                "Snapchat"
+            ],
+            "Explanation": "Twitter is known for its concise messaging, originally allowing users to post messages of up to 140 characters."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Which singer is known as the \"Queen of Pop\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Beyoncé",
+                "Madonna",
+                "Lady Gaga",
+                "Taylor Swift"
+            ],
+            "Explanation": "Madonna is often referred to as the \"Queen of Pop\" for her influential role in shaping the pop music scene since the 1980s."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the name of the fictional city where Batman lives?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Metropolis",
+                "Gotham City",
+                "Star City",
+                "Central City"
+            ],
+            "Explanation": "Batman operates in Gotham City, a dark, crime-ridden city that is central to his story."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Who is the creator of the Star Wars franchise?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Steven Spielberg",
+                "George Lucas",
+                "J.J. Abrams",
+                "James Cameron"
+            ],
+            "Explanation": "George Lucas is the visionary filmmaker behind the Star Wars franchise, which debuted in 1977."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the highest-grossing film of all time?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Titanic",
+                "Avatar",
+                "Avengers: Endgame",
+                "Star Wars: The Force Awakens"
+            ],
+            "Explanation": "As of this writing, \"Avengers: Endgame\" holds the record for the highest-grossing film of all time."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Which TV show features a group of friends living in New York City?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Friends",
+                "How I Met Your Mother",
+                "Seinfeld",
+                "The Big Bang Theory"
+            ],
+            "Explanation": "\"Friends\" is an iconic sitcom about a group of friends navigating life in New York City."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Who is known for the album \"Thriller\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Michael Jackson",
+                "Prince",
+                "Madonna",
+                "Whitney Houston"
+            ],
+            "Explanation": "Michael Jackson's \"Thriller\" is the best-selling album of all time, featuring hits like \"Beat It\" and \"Billie Jean.\""
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "In which video game series is the character \"Link\" the main hero?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Super Mario",
+                "The Legend of Zelda",
+                "Final Fantasy",
+                "Halo"
+            ],
+            "Explanation": "Link is the protagonist of \"The Legend of Zelda\" series, a highly acclaimed video game franchise by Nintendo."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the real name of the superhero known as Superman?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Bruce Wayne",
+                "Clark Kent",
+                "Peter Parker",
+                "Tony Stark"
+            ],
+            "Explanation": "Superman's alter ego is Clark Kent, a mild-mannered reporter for the Daily Planet."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Who is the author of the \"Game of Thrones\" book series?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "J.K. Rowling",
+                "George R.R. Martin",
+                "J.R.R. Tolkien",
+                "Stephen King"
+            ],
+            "Explanation": "George R.R. Martin is the author of \"A Song of Ice and Fire,\" which was adapted into the TV series \"Game of Thrones.\""
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Which app is famous for its short, 15-second to 3-minute videos?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Instagram",
+                "Snapchat",
+                "TikTok",
+                "YouTube"
+            ],
+            "Explanation": "TikTok is a social media platform known for its short-form videos, ranging from 15 seconds to 3 minutes."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Who played Iron Man in the Marvel Cinematic Universe?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Chris Evans",
+                "Robert Downey Jr.",
+                "Chris Hemsworth",
+                "Mark Ruffalo"
+            ],
+            "Explanation": "Robert Downey Jr. portrayed Tony Stark/Iron Man, becoming one of the most beloved characters in the Marvel Cinematic Universe."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "What reality TV show features entrepreneurs pitching their business ideas to a panel of investors?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "The Apprentice",
+                "Shark Tank",
+                "American Idol",
+                "The Voice"
+            ],
+            "Explanation": "\"Shark Tank\" gives entrepreneurs the chance to pitch their business ideas to a panel of potential investors."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "\"All You Need is Love\" is a song by which iconic band?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "The Beatles",
+                "The Rolling Stones",
+                "Queen",
+                "Led Zeppelin"
+            ],
+            "Explanation": "\"All You Need is Love\" was released by The Beatles in 1967, becoming an anthem of the Summer of Love."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Which movie features the quote, \"May the Force be with you\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Star Wars",
+                "The Matrix",
+                "Lord of the Rings",
+                "Harry Potter"
+            ],
+            "Explanation": "\"May the Force be with you\" is a famous line from the Star Wars series, often used as a word of good luck."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the name of the fictional African country in \"Black Panther\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Zamunda",
+                "Wakanda",
+                "Genovia",
+                "Asgard"
+            ],
+            "Explanation": "Wakanda is the technologically advanced, fictional African country in \"Black Panther.\""
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Who is the host of \"The Daily Show\" as of 2020?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Jon Stewart",
+                "Trevor Noah",
+                "Stephen Colbert",
+                "John Oliver"
+            ],
+            "Explanation": "Trevor Noah took over as host of \"The Daily Show,\" succeeding Jon Stewart."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Which artist famously cut off his own ear?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Pablo Picasso",
+                "Vincent van Gogh",
+                "Salvador Dalí",
+                "Claude Monet"
+            ],
+            "Explanation": "Vincent van Gogh, the Dutch post-impressionist painter, is known for cutting off part of his own ear."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "\"Winter is Coming\" is a motto from which TV series?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Game of Thrones",
+                "The Witcher",
+                "Vikings",
+                "The Last Kingdom"
+            ],
+            "Explanation": "\"Winter is Coming\" is the motto of House Stark in the TV series \"Game of Thrones.\""
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Who performed at the Super Bowl halftime show in 2020?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Lady Gaga",
+                "Jennifer Lopez and Shakira",
+                "Katy Perry",
+                "Justin Timberlake"
+            ],
+            "Explanation": "Jennifer Lopez and Shakira co-headlined the Super Bowl LIV halftime show in 2020."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Easy",
+            "QuestionText": "Which streaming service is known for creating \"Stranger Things\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Hulu",
+                "Netflix",
+                "Amazon Prime",
+                "HBO"
+            ],
+            "Explanation": "\"Stranger Things\" is an original series created by Netflix, gaining widespread popularity since its debut."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "Which character in \"Friends\" famously said, \"We were on a break\"?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Chandler Bing",
+                "Joey Tribbiani",
+                "Ross Geller",
+                "Monica Geller"
+            ],
+            "Explanation": "Ross Geller famously uses this line during arguments about his relationship with Rachel."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the real name of Lady Gaga?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Katy Perry",
+                "Stefani Joanne Angelina Germanotta",
+                "Madonna Ciccone",
+                "Taylor Swift"
+            ],
+            "Explanation": "Lady Gaga's real name is Stefani Joanne Angelina Germanotta."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "Who directed the movie \"Inception\"?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Steven Spielberg",
+                "Martin Scorsese",
+                "Christopher Nolan",
+                "Quentin Tarantino"
+            ],
+            "Explanation": "Christopher Nolan directed the sci-fi thriller \"Inception.\""
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "The TV show \"Breaking Bad\" is set in which American city?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Los Angeles",
+                "Albuquerque",
+                "Chicago",
+                "New York City"
+            ],
+            "Explanation": "\"Breaking Bad\" is set in Albuquerque, New Mexico."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "Which book series is authored by Suzanne Collins?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Harry Potter",
+                "The Hunger Games",
+                "Twilight",
+                "Divergent"
+            ],
+            "Explanation": "Suzanne Collins is the author of \"The Hunger Games\" series."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "What year did the original iPhone release?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "2005",
+                "2006",
+                "2007",
+                "2008"
+            ],
+            "Explanation": "The original iPhone was released in 2007."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "\"I'm just a girl, standing in front of a boy, asking him to love her.\" is a line from which movie?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Notting Hill",
+                "Love Actually",
+                "Bridget Jones's Diary",
+                "The Notebook"
+            ],
+            "Explanation": "This famous line is from the movie \"Notting Hill.\""
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "Who was the first woman to win a Nobel Prize in Literature?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Selma Lagerlöf",
+                "Virginia Woolf",
+                "Doris Lessing",
+                "Toni Morrison"
+            ],
+            "Explanation": "Selma Lagerlöf was the first woman to win the Nobel Prize in Literature, in 1909."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "The viral dance craze \"The Harlem Shake\" started in what year?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "2010",
+                "2011",
+                "2012",
+                "2013"
+            ],
+            "Explanation": "\"The Harlem Shake\" became a viral internet meme in early 2013."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "Which actor voices Woody in \"Toy Story\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Tim Allen",
+                "Tom Hanks",
+                "Chris Evans",
+                "Keanu Reeves"
+            ],
+            "Explanation": "Tom Hanks provides the voice for Woody in the \"Toy Story\" series."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "\"No Woman, No Cry\" is a song by which artist?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Bob Marley",
+                "Bob Dylan",
+                "John Lennon",
+                "Jimi Hendrix"
+            ],
+            "Explanation": "\"No Woman, No Cry\" is one of Bob Marley's most famous songs."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "Who is the author of the novel \"1984\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "George Orwell",
+                "Aldous Huxley",
+                "Ray Bradbury",
+                "Arthur C. Clarke"
+            ],
+            "Explanation": "George Orwell wrote the dystopian novel \"1984.\""
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "In what city is the comic book character Batman based?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Metropolis",
+                "Gotham City",
+                "New York City",
+                "Starling City"
+            ],
+            "Explanation": "Batman is based in the fictional Gotham City."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "Who played the character of Jack Dawson in \"Titanic\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Leonardo DiCaprio",
+                "Brad Pitt",
+                "Johnny Depp",
+                "Tom Cruise"
+            ],
+            "Explanation": "Leonardo DiCaprio starred as Jack Dawson in \"Titanic.\""
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the name of Beyoncé's visual album released in 2016?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Lemonade",
+                "Formation",
+                "Beyoncé",
+                "Halo"
+            ],
+            "Explanation": "Beyoncé's visual album \"Lemonade\" was released in 2016."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "Which TV series featured a high school chemistry teacher turned meth producer?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Breaking Bad",
+                "Narcos",
+                "Weeds",
+                "The Wire"
+            ],
+            "Explanation": "\"Breaking Bad\" features Walter White, a high school chemistry teacher who turns to producing methamphetamine."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the highest-selling video game console of all time?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Nintendo Wii",
+                "PlayStation 2",
+                "Xbox 360",
+                "PlayStation 4"
+            ],
+            "Explanation": "The PlayStation 2 is the highest-selling video game console of all time."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "Which artist released the hit album \"Back to Black\" in 2006?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Adele",
+                "Amy Winehouse",
+                "Lana Del Rey",
+                "Norah Jones"
+            ],
+            "Explanation": "Amy Winehouse's \"Back to Black\" was released in 2006."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "In the Marvel Cinematic Universe, what is the name of Thor's home planet?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Asgard",
+                "Krypton",
+                "Xandar",
+                "Oa"
+            ],
+            "Explanation": "Thor's home planet in the Marvel Cinematic Universe is Asgard."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "What social media trend involved pouring ice water over oneself to raise ALS awareness?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "ALS Ice Bucket Challenge",
+                "Mannequin Challenge",
+                "Planking",
+                "Harlem Shake"
+            ],
+            "Explanation": "The ALS Ice Bucket Challenge went viral to raise awareness and funds for ALS research."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "Who wrote the fantasy series \"A Song of Ice and Fire,\" which \"Game of Thrones\" is based on?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "J.R.R. Tolkien",
+                "George R.R. Martin",
+                "C.S. Lewis",
+                "J.K. Rowling"
+            ],
+            "Explanation": "\"Game of Thrones\" is based on \"A Song of Ice and Fire\" by George R.R. Martin."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "\"To infinity and beyond!\" is a catchphrase from which animated movie series?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Toy Story",
+                "Monsters, Inc.",
+                "Cars",
+                "Finding Nemo"
+            ],
+            "Explanation": "\"To infinity and beyond!\" is Buzz Lightyear's catchphrase in the \"Toy Story\" series."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "Which app became famous for its lip-syncing videos before being rebranded to TikTok?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Vine",
+                "Snapchat",
+                "Musical.ly",
+                "Periscope"
+            ],
+            "Explanation": "Musical.ly was known for lip-syncing videos before it was rebranded as TikTok."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "What was the first music video aired on MTV?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "\"Video Killed the Radio Star\" by The Buggles",
+                "\"Thriller\" by Michael Jackson",
+                "\"Like a Virgin\" by Madonna",
+                "\"Sledgehammer\" by Peter Gabriel"
+            ],
+            "Explanation": "\"Video Killed the Radio Star\" by The Buggles was the first music video aired on MTV in 1981."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Medium",
+            "QuestionText": "Who created the animated TV show \"Rick and Morty\"?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Seth MacFarlane",
+                "Matt Groening",
+                "Dan Harmon and Justin Roiland",
+                "Trey Parker and Matt Stone"
+            ],
+            "Explanation": "\"Rick and Morty\" was created by Dan Harmon and Justin Roiland."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "Which actor performed the motion capture for Gollum in \"The Lord of the Rings\" trilogy?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Ian McKellen",
+                "Viggo Mortensen",
+                "Andy Serkis",
+                "Elijah Wood"
+            ],
+            "Explanation": "Andy Serkis is renowned for his motion capture work, notably for the character Gollum."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "\"The Blair Witch Project\" is credited with popularizing what genre of film?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Slasher",
+                "Found footage",
+                "Mockumentary",
+                "Psychological thriller"
+            ],
+            "Explanation": "\"The Blair Witch Project\" popularized the found footage genre in horror cinema."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "Before achieving fame with \"Game of Thrones,\" George R.R. Martin worked on which 1980s television series?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "The Twilight Zone",
+                "Star Trek: The Next Generation",
+                "Beauty and the Beast",
+                "Miami Vice"
+            ],
+            "Explanation": "George R.R. Martin was a writer and producer for \"Beauty and the Beast\" in the late 1980s."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "What was the original name of the first \"Twitter\" prototype?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Tweetie",
+                "Twttr",
+                "Birdie",
+                "Chirp"
+            ],
+            "Explanation": "The first prototype of Twitter was originally named \"Twttr,\" focusing on SMS-based communication."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "Which album was the first to be released exclusively on the internet by a major label artist, marking a pivotal moment in music distribution?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "\"Hail to the Thief\" by Radiohead",
+                "\"In Rainbows\" by Radiohead",
+                "\"The Slip\" by Nine Inch Nails",
+                "\"Blackstar\" by David Bowie"
+            ],
+            "Explanation": "Though \"In Rainbows\" is often noted for its pay-what-you-want release, \"Hail to the Thief\" had earlier leveraged the internet for its distribution."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "In the \"Harry Potter\" series, what is the full name of Dumbledore?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Albus Percival Wulfric Brian Dumbledore",
+                "Albus Patrick Wulfric Brian Dumbledore",
+                "Albus Severus Wulfric Brian Dumbledore",
+                "Albus Percival Wolfram Brian Dumbledore"
+            ],
+            "Explanation": "Dumbledore's full name is Albus Percival Wulfric Brian Dumbledore, reflecting his complex character."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "The viral internet meme \"Rickrolling\" involves unexpectedly linking to what?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "\"Wake Me Up Before You Go-Go\" by Wham!",
+                "\"Never Gonna Give You Up\" by Rick Astley",
+                "\"Take On Me\" by a-ha",
+                "\"Africa\" by Toto"
+            ],
+            "Explanation": "\"Rickrolling\" is a bait-and-switch prank using the music video for \"Never Gonna Give You Up\" by Rick Astley."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "Who was the first superhero character to appear in a comic?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Batman",
+                "Superman",
+                "Spider-Man",
+                "Wonder Woman"
+            ],
+            "Explanation": "Superman, debuting in Action Comics #1 in 1938, is considered the first superhero to appear in comic books."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "Which film is recognized as the first summer blockbuster, changing the marketing and release strategy of movies forever?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Star Wars",
+                "Jaws",
+                "Raiders of the Lost Ark",
+                "E.T. the Extra-Terrestrial"
+            ],
+            "Explanation": "\"Jaws,\" released in 1975, is credited as the first summer blockbuster, altering how films are marketed and released."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "The iconic \"V-J Day in Times Square\" photograph was taken by whom?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Alfred Eisenstaedt",
+                "Robert Capa",
+                "Joe Rosenthal",
+                "Henri Cartier-Bresson"
+            ],
+            "Explanation": "Alfred Eisenstaedt captured the famous \"V-J Day in Times Square\" photo, symbolizing the end of WWII."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "Which video game holds the record for the highest number of \"Game of the Year\" awards?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "The Legend of Zelda: Breath of the Wild",
+                "The Witcher 3: Wild Hunt",
+                "Red Dead Redemption 2",
+                "The Last of Us"
+            ],
+            "Explanation": "\"The Witcher 3: Wild Hunt\" has received the highest number of \"Game of the Year\" awards to date."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "\"All your base are belong to us\" originated from the poorly translated English version of which video game?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Final Fantasy VII",
+                "Metal Gear Solid",
+                "Zero Wing",
+                "Mega Man X"
+            ],
+            "Explanation": "This meme comes from the 1989 video game \"Zero Wing,\" known for its poor English translation."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "What was the first animated film to be nominated for Best Picture at the Academy Awards?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "The Lion King",
+                "Beauty and the Beast",
+                "Snow White and the Seven Dwarfs",
+                "Up"
+            ],
+            "Explanation": "\"Beauty and the Beast\" (1991) was the first animated film nominated for Best Picture at the Academy Awards."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "Which artist's music video was the first to reach one billion views on YouTube?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Justin Bieber with \"Baby\"",
+                "Psy with \"Gangnam Style\"",
+                "Katy Perry with \"Roar\"",
+                "Adele with \"Hello\""
+            ],
+            "Explanation": "Psy's \"Gangnam Style\" was the first YouTube video to reach one billion views, becoming a global phenomenon."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "In \"The Matrix\" franchise, what color is the pill Neo takes to leave the Matrix?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Blue",
+                "Red",
+                "Green",
+                "Yellow"
+            ],
+            "Explanation": "Neo takes the red pill to leave the Matrix and learn the truth about his reality."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "Who was the first female director to win an Academy Award for Best Director?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Kathryn Bigelow",
+                "Sofia Coppola",
+                "Greta Gerwig",
+                "Jane Campion"
+            ],
+            "Explanation": "Kathryn Bigelow won Best Director for \"The Hurt Locker,\" making her the first woman to win in this category."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "The phrase \"Winter is coming\" is often associated with which house in \"Game of Thrones\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "House Stark",
+                "House Lannister",
+                "House Targaryen",
+                "House Baratheon"
+            ],
+            "Explanation": "\"Winter is coming\" is the motto of House Stark, signifying their vigilance and preparedness."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "In what year was the original \"Super Mario Bros.\" video game released for the Nintendo Entertainment System?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "1983",
+                "1985",
+                "1987",
+                "1990"
+            ],
+            "Explanation": "\"Super Mario Bros.\" was released in 1985, becoming a landmark in video gaming history."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "Which movie features a secret dance known as \"The Five Point Palm Exploding Heart Technique\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Crouching Tiger, Hidden Dragon",
+                "Kill Bill: Vol. 2",
+                "The Matrix",
+                "Enter the Dragon"
+            ],
+            "Explanation": "\"The Five Point Palm Exploding Heart Technique\" is a fictional martial arts move featured in \"Kill Bill: Vol. 2.\""
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "What was the first television show to air on MTV?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "\"Video Killed the Radio Star\" by The Buggles",
+                "\"Thriller\" by Michael Jackson",
+                "\"Money for Nothing\" by Dire Straits",
+                "\"Sledgehammer\" by Peter Gabriel"
+            ],
+            "Explanation": "\"Video Killed the Radio Star\" by The Buggles was the first video aired on MTV in 1981."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "The \"Bechdel Test\" is used to evaluate movies based on what criteria?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "The presence of strong female lead characters",
+                "The equal representation of genders",
+                "The presence of at least two women who talk to each other about something other than a man",
+                "The portrayal of women in non-stereotypical roles"
+            ],
+            "Explanation": "The Bechdel Test assesses whether a work of fiction features at least two women who talk to each other about something other than a man."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "Which artist famously declared \"I am the Walrus\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "John Lennon",
+                "Paul McCartney",
+                "George Harrison",
+                "Ringo Starr"
+            ],
+            "Explanation": "John Lennon of The Beatles declared \"I am the Walrus\" in the song of the same name, symbolizing his love for nonsensical and surreal lyrics."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "\"The Son of Man\" is an iconic painting by which artist?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Salvador Dalí",
+                "René Magritte",
+                "Pablo Picasso",
+                "Vincent van Gogh"
+            ],
+            "Explanation": "\"The Son of Man\" is a famous painting by Belgian surrealist artist René Magritte, depicting a man's face obscured by a floating apple."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "Which film was Quentin Tarantino's directorial debut?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Pulp Fiction",
+                "Kill Bill",
+                "Reservoir Dogs",
+                "Django Unchained"
+            ],
+            "Explanation": "Quentin Tarantino's directorial debut was \"Reservoir Dogs,\" released in 1992."
+        },
+        {
+            "CategoryId": "4",
+            "Difficulty": "Hard",
+            "QuestionText": "The phrase \"You can't handle the truth!\" originates from which film?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "A Few Good Men",
+                "The Godfather",
+                "Goodfellas",
+                "The Shawshank Redemption"
+            ],
+            "Explanation": "This iconic line is delivered by Jack Nicholson's character in \"A Few Good Men.\""
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "In which sport would you perform a slam dunk?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Soccer",
+                "Basketball",
+                "Tennis",
+                "Golf"
+            ],
+            "Explanation": "A slam dunk is a high-scoring move in basketball where a player jumps and directly throws the ball downward through the hoop."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "What color are the goalposts in American football?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Red",
+                "Blue",
+                "Yellow",
+                "White"
+            ],
+            "Explanation": "In American football, the goalposts are traditionally yellow."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "How many players are on a soccer team on the field at one time?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "11",
+                "9",
+                "7",
+                "5"
+            ],
+            "Explanation": "A soccer team has 11 players on the field at one time, including the goalkeeper."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "Which tennis Grand Slam is played on a clay court?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Wimbledon",
+                "US Open",
+                "Australian Open",
+                "French Open"
+            ],
+            "Explanation": "The French Open is famous for being played on clay courts."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "Who is known as \"The Great One\" in ice hockey?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Wayne Gretzky",
+                "Bobby Orr",
+                "Mario Lemieux",
+                "Gordie Howe"
+            ],
+            "Explanation": "Wayne Gretzky is often referred to as \"The Great One\" for his exceptional career in ice hockey."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "In golf, what name is given to a score of one under par on a hole?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Eagle",
+                "Birdie",
+                "Bogey",
+                "Par"
+            ],
+            "Explanation": "A \"birdie\" is a score of one stroke under par for any golf hole."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the highest score possible in 10-pin bowling?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "200",
+                "250",
+                "300",
+                "350"
+            ],
+            "Explanation": "A perfect game in 10-pin bowling, achieved by rolling 12 strikes in a row, scores 300 points."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "Which country hosts the Formula 1 race known as the Monaco Grand Prix?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "France",
+                "Italy",
+                "Spain",
+                "Monaco"
+            ],
+            "Explanation": "The Monaco Grand Prix is a Formula 1 race held annually in Monaco."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "Who broke Babe Ruth's home run record in 1974?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Hank Aaron",
+                "Barry Bonds",
+                "Willie Mays",
+                "Mark McGwire"
+            ],
+            "Explanation": "Hank Aaron broke Babe Ruth's home run record in 1974."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the name of the NFL trophy awarded to the Super Bowl winners?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Vince Lombardi Trophy",
+                "Heisman Trophy",
+                "Stanley Cup",
+                "Larry O'Brien Championship Trophy"
+            ],
+            "Explanation": "The Super Bowl winners receive the Vince Lombardi Trophy."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "In which sport is the term \"free throw\" used?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Basketball",
+                "Football",
+                "Baseball",
+                "Hockey"
+            ],
+            "Explanation": "A \"free throw\" is a shot in basketball awarded after certain fouls, taken from the free-throw line without opposition."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "How many periods are there in an NHL hockey game?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "Explanation": "An NHL hockey game is divided into three periods."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "In soccer, what is it called when a player touches the ball with their hands in the penalty area?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Foul",
+                "Offside",
+                "Handball",
+                "Corner"
+            ],
+            "Explanation": "In soccer, touching the ball with hands in the penalty area by anyone other than the goalkeeper is called a \"handball.\""
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "What color belt do beginners start with in most martial arts?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "White",
+                "Yellow",
+                "Red",
+                "Blue"
+            ],
+            "Explanation": "Most martial arts start beginners with a white belt, symbolizing purity and the beginning of the journey."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "Which country won the 2018 FIFA World Cup?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Brazil",
+                "Germany",
+                "Spain",
+                "France"
+            ],
+            "Explanation": "France won the 2018 FIFA World Cup, held in Russia."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "In baseball, what is the term for a hit that allows the batter to make a complete circuit of the bases and score a run?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Strike",
+                "Home run",
+                "Bunt",
+                "Double"
+            ],
+            "Explanation": "A \"home run\" is a hit that allows the batter to round all bases and score without stopping."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "Who is often called the \"King of Clay\" in tennis?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Roger Federer",
+                "Rafael Nadal",
+                "Novak Djokovic",
+                "Andy Murray"
+            ],
+            "Explanation": "Rafael Nadal is often referred to as the \"King of Clay\" for his dominance on clay courts."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "Which sport uses a shuttlecock?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Tennis",
+                "Badminton",
+                "Squash",
+                "Table Tennis"
+            ],
+            "Explanation": "Badminton uses a shuttlecock, also known as a birdie, as the object that players hit."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "Who was the youngest world heavyweight boxing champion?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Mike Tyson",
+                "Muhammad Ali",
+                "Joe Frazier",
+                "Floyd Mayweather"
+            ],
+            "Explanation": "Mike Tyson became the youngest world heavyweight boxing champion in history at the age of 20."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the term for when a bowler makes three consecutive strikes in bowling?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Eagle",
+                "Birdie",
+                "Turkey",
+                "Spare"
+            ],
+            "Explanation": "In bowling, rolling three consecutive strikes is known as a \"turkey.\""
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "Which city's marathon is famous for having a heartbreak hill?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "New York",
+                "Chicago",
+                "Boston",
+                "London"
+            ],
+            "Explanation": "The Boston Marathon is famous for \"Heartbreak Hill,\" a challenging part of the race."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "Who has won more Grand Slam titles, Serena Williams or Venus Williams?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Serena Williams",
+                "Elena Williams",
+                "Venus Williams",
+                "Wendy Williams"
+            ],
+            "Explanation": "Serena Williams has won more Grand Slam titles than her sister Venus Williams."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the only team in the NFL to go undefeated, including the Super Bowl, in a season?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "New England Patriots",
+                "Miami Dolphins",
+                "Dallas Cowboys",
+                "Pittsburgh Steelers"
+            ],
+            "Explanation": "The Miami Dolphins are the only NFL team to finish an entire season undefeated, including the Super Bowl, in 1972."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "What is the maximum time limit for a round in professional boxing?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "2 minutes",
+                "3 minutes",
+                "4 minutes",
+                "5 minutes"
+            ],
+            "Explanation": "A round in professional boxing typically lasts 3 minutes."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Easy",
+            "QuestionText": "In which Olympic Games did Usain Bolt set his world record for the 100 meters?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "2004 Athens Olympics",
+                "2008 Beijing Olympics",
+                "2012 London Olympics",
+                "2016 Rio Olympics"
+            ],
+            "Explanation": "Usain Bolt set his world record for the 100 meters at the 2008 Beijing Olympics."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "Which country has won the most World Cup titles in soccer?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Brazil",
+                "Germany",
+                "Italy",
+                "Argentina"
+            ],
+            "Explanation": "Brazil has won the most FIFA World Cup titles, with a total of five."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "Who broke Michael Phelps' record for the most Olympic gold medals in a single Games?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Mark Spitz",
+                "Ian Thorpe",
+                "No one has",
+                "Katie Ledecky"
+            ],
+            "Explanation": "No one has broken Michael Phelps' record for the most Olympic gold medals in a single Games, which stands at 8 from the 2008 Beijing Olympics."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the only team in NFL history to have a perfect season, including winning the Super Bowl?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "1985 Chicago Bears",
+                "2007 New England Patriots",
+                "1972 Miami Dolphins",
+                "1998 Denver Broncos"
+            ],
+            "Explanation": "The 1972 Miami Dolphins are the only NFL team to complete a perfect season, culminating in a Super Bowl win."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "In tennis, what term is used when both players have scored three points in a game?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Advantage",
+                "Deuce",
+                "Tiebreak",
+                "Love"
+            ],
+            "Explanation": "\"Deuce\" refers to a situation in tennis where both players have scored three points (40-40) in a game."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "Who was the first female gymnast to be awarded a perfect score of 10 at the Olympics?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Mary Lou Retton",
+                "Simone Biles",
+                "Nadia Comaneci",
+                "Olga Korbut"
+            ],
+            "Explanation": "Nadia Comaneci was the first female gymnast to score a perfect 10 at the 1976 Montreal Olympics."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "Which NHL player holds the record for most points scored in a single season?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Wayne Gretzky",
+                "Mario Lemieux",
+                "Gordie Howe",
+                "Brett Hull"
+            ],
+            "Explanation": "Wayne Gretzky holds the record for the most points in a single NHL season with 215 points during the 1985-86 season."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "What color jacket is awarded to the winner of The Masters golf tournament?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Green",
+                "Red",
+                "Blue",
+                "Yellow"
+            ],
+            "Explanation": "The winner of The Masters is awarded a green jacket, a tradition dating back to 1949."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "In what year were women first allowed to compete in the modern Olympic Games?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "1896",
+                "1900",
+                "1920",
+                "1936"
+            ],
+            "Explanation": "Women first competed at the 1900 Paris Olympics, in sports such as tennis and golf."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the record for the longest marathon match in tennis history?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "8 hours and 11 minutes",
+                "10 hours",
+                "11 hours and 5 minutes",
+                "9 hours and 36 minutes"
+            ],
+            "Explanation": "The longest match in tennis history lasted 11 hours and 5 minutes at Wimbledon in 2010 between John Isner and Nicolas Mahut."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "Which country hosted the first Winter Olympics?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Switzerland",
+                "France",
+                "Canada",
+                "Norway"
+            ],
+            "Explanation": "France hosted the first Winter Olympics in Chamonix in 1924."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "How many holes are there in a standard round of golf?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "9",
+                "12",
+                "18",
+                "24"
+            ],
+            "Explanation": "A standard round of golf consists of 18 holes."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the maximum weight for a ball used in men's shot put?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "7.26 kilograms (16 pounds)",
+                "5 kilograms",
+                "6 kilograms",
+                "8 kilograms"
+            ],
+            "Explanation": "The weight of the ball in men's shot put is 7.26 kilograms (16 pounds)."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "Which boxer was known as \"The Greatest\" and \"The People's Champion\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Mike Tyson",
+                "Muhammad Ali",
+                "Floyd Mayweather",
+                "Manny Pacquiao"
+            ],
+            "Explanation": "Muhammad Ali was known as \"The Greatest\" and \"The People's Champion.\""
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "What sport is known as \"the sport of kings\"?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Polo",
+                "Horse racing",
+                "Fencing",
+                "Golf"
+            ],
+            "Explanation": "Horse racing is often referred to as \"the sport of kings,\" highlighting its historic association with royalty."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "Who is the only athlete ever to play in a Super Bowl and a World Series?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Bo Jackson",
+                "Deion Sanders",
+                "Michael Jordan",
+                "Tim Tebow"
+            ],
+            "Explanation": "Deion Sanders is the only athlete to have played in both a Super Bowl and a World Series."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "What term is used in cricket when a bowler delivers three consecutive wickets?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Century",
+                "Hat-trick",
+                "Maiden over",
+                "Duck"
+            ],
+            "Explanation": "A \"hat-trick\" in cricket occurs when a bowler takes three wickets with consecutive deliveries."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "Which female tennis player has won the most Grand Slam titles?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Margaret Court",
+                "Serena Williams",
+                "Steffi Graf",
+                "Martina Navratilova"
+            ],
+            "Explanation": "Serena Williams is among the female tennis players with the most Grand Slam titles."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "In which sport might you perform a \"Fosbury Flop\"?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "High jump",
+                "Diving",
+                "Pole vault",
+                "Gymnastics"
+            ],
+            "Explanation": "The \"Fosbury Flop\" is a high jump technique perfected by Dick Fosbury during the 1968 Olympics."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "Which soccer player has won the most FIFA Ballon d'Or awards?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Cristiano Ronaldo",
+                "Lionel Messi",
+                "Pelé",
+                "Diego Maradona"
+            ],
+            "Explanation": "Lionel Messi has won the FIFA Ballon d'Or award multiple times, the most by any player."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "What does the Olympic motto \"Citius, Altius, Fortius\" mean?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Faster, Higher, Stronger",
+                "Braver, Quicker, Stronger", 
+                "Faster, Higher, Stronger", 
+                "Quicker, Braver, Stronger"
+            ],
+            "Explanation": "\"Citius, Altius, Fortius\" translates to \"Faster, Higher, Stronger,\" representing the aspirations of the Olympic movement."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "Who was the first athlete to fail an Olympic drug test?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Ben Johnson",
+                "Lance Armstrong",
+                "Hans-Gunnar Liljenwall",
+                "Marion Jones"
+            ],
+            "Explanation": "Hans-Gunnar Liljenwall was the first athlete to fail an Olympic drug test, in 1968, for alcohol."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "In what year did the Chicago Cubs break their World Series championship drought?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "2004",
+                "2016",
+                "1998",
+                "1985"
+            ],
+            "Explanation": "The Chicago Cubs won the World Series in 2016, breaking a 108-year championship drought."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "What is the only country to have played in every World Cup tournament in soccer?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Brazil",
+                "Germany",
+                "Italy",
+                "Argentina"
+            ],
+            "Explanation": "Brazil is the only country to have played in every FIFA World Cup tournament."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "What sport does the term \"butterfly stroke\" refer to?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Swimming",
+                "Gymnastics",
+                "Skiing",
+                "Track and Field"
+            ],
+            "Explanation": "The butterfly stroke is a swimming style characterized by a symmetrical arm movement accompanied by a dolphin kick."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Medium",
+            "QuestionText": "Who won the first ever NBA game?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Los Angeles Lakers",
+                "Boston Celtics",
+                "New York Knicks",
+                "Chicago Bulls"
+            ],
+            "Explanation": "The New York Knicks won the first ever NBA game on November 1, 1946, against the Toronto Huskies."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Who was the first player in NBA history to be elected league MVP by a unanimous vote?",
+            "CorrectAnswerIndex": "3",
+            "Options": [
+                "Michael Jordan",
+                "LeBron James",
+                "Kobe Bryant",
+                "Stephen Curry"
+            ],
+            "Explanation": "Stephen Curry was unanimously named the NBA's Most Valuable Player for the 2015-2016 season."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "In the \"Miracle on Ice\" of 1980, which country's hockey team did the USA defeat to win the gold medal?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Canada",
+                "Soviet Union",
+                "Sweden",
+                "Finland"
+            ],
+            "Explanation": "The USA hockey team defeated the Soviet Union in a medal-round game during the 1980 Winter Olympics."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the longest recorded point in the history of tennis, measured by time?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "29 minutes",
+                "15 minutes",
+                "10 minutes",
+                "25 minutes"
+            ],
+            "Explanation": "The longest recorded point in tennis lasted 29 minutes, occurring in a 1984 women's match between Vicki Nelson and Jean Hepner."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Who is the only athlete to win gold in both the Summer and Winter Olympics?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Eddie Eagan",
+                "Clara Hughes",
+                "Christa Luding-Rothenburger",
+                "Lauryn Williams"
+            ],
+            "Explanation": "Eddie Eagan won gold in boxing at the 1920 Summer Olympics and in four-man bobsled at the 1932 Winter Olympics."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Which golfer has won the most Masters Tournaments?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Tiger Woods",
+                "Arnold Palmer",
+                "Jack Nicklaus",
+                "Gary Player"
+            ],
+            "Explanation": "Jack Nicklaus holds the record with six Masters Tournament victories."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "What was the original nationality of the marathon runner Abebe Bikila when he won his first Olympic gold medal?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Ethiopian",
+                "Kenyan",
+                "Ugandan",
+                "Moroccan"
+            ],
+            "Explanation": "Abebe Bikila, an Ethiopian runner, famously won the marathon while running barefoot at the 1960 Rome Olympics."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Which female tennis player completed a Calendar Grand Slam while pregnant?",
+            "CorrectAnswerIndex": "2",
+            "Options": [
+                "Serena Williams",
+                "Steffi Graf",
+                "Margaret Court",
+                "Billie Jean King"
+            ],
+            "Explanation": "Margaret Court completed a Calendar Grand Slam in 1970 and later revealed she was pregnant during some of the tournaments."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "The \"Hand of God\" goal was scored by which soccer player?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Diego Maradona",
+                "Lionel Messi",
+                "Pelé",
+                "Zinedine Zidane"
+            ],
+            "Explanation": "Diego Maradona scored the controversial \"Hand of God\" goal during the 1986 FIFA World Cup."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "In which year did Major League Baseball introduce the designated hitter (DH) rule?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "1965",
+                "1973",
+                "1980",
+                "1992"
+            ],
+            "Explanation": "The designated hitter (DH) rule was introduced to Major League Baseball in 1973."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Who was the first woman to run the Boston Marathon officially as a numbered entry?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Kathrine Switzer",
+                "Joan Benoit",
+                "Grete Waitz",
+                "Paula Radcliffe"
+            ],
+            "Explanation": "Kathrine Switzer became the first woman to run the Boston Marathon officially with a numbered entry in 1967."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "What year was rugby union officially declared professional?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "1987",
+                "1995",
+                "2001",
+                "1991"
+            ],
+            "Explanation": "Rugby union was declared a professional sport in 1995, ending the amateur era."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Which NHL player scored 50 goals in the shortest number of games starting from the beginning of the season?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Wayne Gretzky",
+                "Maurice Richard",
+                "Brett Hull",
+                "Mario Lemieux"
+            ],
+            "Explanation": "Wayne Gretzky scored 50 goals in just 39 games during the 1981-82 NHL season."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Who is the only cricketer to have hit 400 not out in an international Test match?",
+            "CorrectAnswerIndex": "1",
+            "Options": [
+                "Sachin Tendulkar",
+                "Brian Lara",
+                "Don Bradman",
+                "Viv Richards"
+            ],
+            "Explanation": "Brian Lara scored 400 not out for the West Indies against England in 2004, the highest individual score in a Test match."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "What is the maximum number of clubs a golfer is allowed to carry in their bag during a round?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "14",
+                "12",
+                "16",
+                "18"
+            ],
+            "Explanation": "Golfers are allowed to carry a maximum of 14 clubs in their bag during a round, as per the rules of golf."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Which country won the first FIFA Women's World Cup in 1991?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "United States",
+                "Germany",
+                "Norway",
+                "China"
+            ],
+            "Explanation": "The United States won the inaugural FIFA Women's World Cup in 1991."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "In which Olympic Games did Jesse Owens win four gold medals?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "1936 Berlin Olympics",
+                "1932 Los Angeles Olympics",
+                "1948 London Olympics",
+                "1952 Helsinki Olympics"
+            ],
+            "Explanation": "Jesse Owens famously won four gold medals at the 1936 Berlin Olympics."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Who was the first boxer to defeat Muhammad Ali professionally?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Joe Frazier",
+                "Ken Norton",
+                "George Foreman",
+                "Sonny Liston"
+            ],
+            "Explanation": "Joe Frazier was the first boxer to defeat Muhammad Ali professionally, in the \"Fight of the Century\" in 1971."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "What sport is played on a pitch called a velodrome?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Cycling",
+                "Rugby",
+                "Cricket",
+                "Polo"
+            ],
+            "Explanation": "A velodrome is a track for cycling races."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "What year was the inaugural Rugby World Cup held?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "1987",
+                "1991",
+                "1995",
+                "1999"
+            ],
+            "Explanation": "The inaugural Rugby World Cup was held in 1987 in New Zealand and Australia."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Which country has hosted the Summer Olympics the most times?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "United States",
+                "Great Britain",
+                "France",
+                "Germany"
+            ],
+            "Explanation": "The United States has hosted the Summer Olympics four times: 1904, 1932, 1984, and 1996."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Who holds the record for the most goals scored in a single Premier League season (38-game format)?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Mohamed Salah and three others",
+                "Thierry Henry",
+                "Alan Shearer",
+                "Sergio Agüero"
+            ],
+            "Explanation": "Mohamed Salah, along with three others (Luis Suárez, Cristiano Ronaldo, and Alan Shearer), holds the record for the most goals in a 38-game Premier League season with 31 goals."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "What unique record did the 2012 Summer Olympics set regarding gender?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Every participating country included female athletes",
+                "First Olympics with female boxing",
+                "Equal number of events for men and women",
+                "First Olympics to feature women's marathon"
+            ],
+            "Explanation": "The 2012 London Olympics marked the first time every participating country included female athletes in their teams."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Which football club has won the most UEFA Champions League titles?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Real Madrid",
+                "AC Milan",
+                "FC Barcelona",
+                "Liverpool FC"
+            ],
+            "Explanation": "Real Madrid has won the UEFA Champions League the most times, with 13 titles."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "Who was the first professional surfer to win world titles in both large waves and small wave competitive surfing?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Kelly Slater",
+                "Mark Richards",
+                "Mick Fanning",
+                "Laird Hamilton"
+            ],
+            "Explanation": "Kelly Slater is renowned for his versatility in surfing, winning world titles in both large waves and competitive small wave surfing."
+        },
+        {
+            "CategoryId": "5",
+            "Difficulty": "Hard",
+            "QuestionText": "What significant sporting event took place on April 15, 1947?",
+            "CorrectAnswerIndex": "0",
+            "Options": [
+                "Jackie Robinson's MLB debut",
+                "First Super Bowl",
+                "First modern Olympic Games",
+                "Nadia Comaneci's perfect 10"
+            ],
+            "Explanation": "Jackie Robinson made his Major League Baseball debut on April 15, 1947, breaking baseball's color barrier."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+@page "/timed/{CategoryId:int}/{Difficulty}"
+
+@inject NavigationManager NavigationManager
+
+<h2>Do you want the quiz to be timed?</h2>
+
+<button class="custom-btn" @onclick="() => StartQuiz(true)">Yes</button>
+<button class="custom-btn" @onclick="() => StartQuiz(false)">No</button>
+
+@code {
+    [Parameter]
+    public int CategoryId { get; set; }
+    
+    [Parameter]
+    public string Difficulty { get; set; }
+
+    private void StartQuiz(bool isTimed)
+    {
+        // Navigation logic to start quiz with all selected options
+        NavigationManager.NavigateTo($"/quiz/{CategoryId}/{Difficulty}/{isTimed}");
+    }
+}

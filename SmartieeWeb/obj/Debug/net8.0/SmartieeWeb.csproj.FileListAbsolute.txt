@@ -1,3 +1,10 @@
+/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.csproj.AssemblyReference.cache
+/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.AssemblyInfoInputs.cache
+/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.AssemblyInfo.cs
+/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.csproj.CoreCompileInputs.cache
+/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.sourcelink.json
 /workspaces/smartiee/SmartieeWeb/bin/Debug/net8.0/wwwroot/_framework/blazor.boot.json
 /workspaces/smartiee/SmartieeWeb/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js
 /workspaces/smartiee/SmartieeWeb/bin/Debug/net8.0/wwwroot/_framework/dotnet.js
@@ -609,13 +616,6 @@
 /workspaces/smartiee/SmartieeWeb/bin/Debug/net8.0/icudt_CJK.dat
 /workspaces/smartiee/SmartieeWeb/bin/Debug/net8.0/icudt_EFIGS.dat
 /workspaces/smartiee/SmartieeWeb/bin/Debug/net8.0/icudt_no_CJK.dat
-/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.csproj.AssemblyReference.cache
-/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.GeneratedMSBuildEditorConfig.editorconfig
-/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.AssemblyInfoInputs.cache
-/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.AssemblyInfo.cs
-/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.csproj.CoreCompileInputs.cache
-/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.MvcApplicationPartsAssemblyInfo.cache
-/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.sourcelink.json
 /workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Authorization.wasm
 /workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.wasm
 /workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.Forms.wasm

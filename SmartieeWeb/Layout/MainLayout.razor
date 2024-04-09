@@ -1,16 +1,40 @@
 ﻿@inherits LayoutComponentBase
+@inject AppStateService AppStateService
+
 <div class="page">
     <div class="sidebar">
         <NavMenu />
     </div>
 
     <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+        <div class="top-row px-4 text-center">
+            <h1>@currentCategoryName</h1>
         </div>
+
 
         <article class="content px-4">
             @Body
         </article>
     </main>
 </div>
+
+@code {
+    private string currentCategoryName = "Default Category";
+
+    protected override void OnInitialized()
+    {
+        currentCategoryName = AppStateService.CurrentCategoryName;
+        AppStateService.OnChange += UpdateCategoryName;
+    }
+
+    private void UpdateCategoryName()
+    {
+        currentCategoryName = AppStateService.CurrentCategoryName;
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        AppStateService.OnChange -= UpdateCategoryName;
+    }
+}

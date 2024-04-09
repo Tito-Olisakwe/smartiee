@@ -1,0 +1,50 @@
+@code {
+    private bool _isVisible;
+    private string _message = "";
+    private int _optionIndex;
+    
+    [Parameter] public EventCallback<int> OnConfirm { get; set; }
+    [Parameter] public Action OnCancel { get; set; }
+
+    public void Show(string message, int optionIndex)
+    {
+        Console.WriteLine($"Showing modal with message: {message} and optionIndex: {optionIndex}");
+        _message = message;
+        _optionIndex = optionIndex;
+        _isVisible = true;
+        StateHasChanged();
+    }
+
+    private async Task Confirm()
+    {
+        Console.WriteLine("Confirm method invoked.");
+        if (OnConfirm.HasDelegate)
+        {
+            await OnConfirm.InvokeAsync(_optionIndex);
+        }
+        Close();
+    }
+
+    private void Close() 
+    {
+        _isVisible = false;
+        StateHasChanged(); // Ensure the UI updates to reflect the modal is closed.
+    }
+
+    private void Cancel() 
+    {
+        OnCancel?.Invoke(); // This will execute the logic provided by the consuming component
+        Close(); // Close the modal
+    }
+}
+
+@if (_isVisible)
+{
+    <div class="modal" style="display:block;">
+        <div class="modal-content">
+            <p>@_message</p>
+            <button class="custom-btn" @onclick="Confirm">Confirm</button>
+            <button class="custom-btn" @onclick="Cancel">Cancel</button>
+        </div>
+    </div>
+}
