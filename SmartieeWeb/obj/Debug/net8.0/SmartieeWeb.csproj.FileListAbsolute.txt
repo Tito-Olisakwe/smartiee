@@ -1030,3 +1030,5 @@
 /workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/refint/SmartieeWeb.dll
 /workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.pdb
 /workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/ref/SmartieeWeb.dll
+/workspaces/smartiee/SmartieeWeb/bin/Debug/net8.0/SmartieeWeb.xml
+/workspaces/smartiee/SmartieeWeb/obj/Debug/net8.0/SmartieeWeb.xml
