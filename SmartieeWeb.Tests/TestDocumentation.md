@@ -1,4 +1,29 @@
-# Test Case Documentation
+# Testing Strategy
+
+## Overview
+My testing strategy aims to ensure the correctness and robustness of the SmartieeWeb application through a combination of unit, integration, and end-to-end testing methodologies. I utilize various tools and techniques to validate different aspects of the application's functionality and ensure that it meets the desired quality standards.
+
+### Methodologies:
+- **Unit Testing:** Employed to verify the individual components of the application, such as components, services, and utilities, in isolation. These tests ensure each unit behaves as expected and adheres to its specifications.
+  
+- **Integration Testing:** Utilized to validate the interactions and integration between different components/modules of the application. This includes testing the communication between components, services, and external dependencies.
+  
+- **End-to-End Testing:** Performed to validate the application's behavior as a whole, simulating real-world user scenarios. These tests cover user interactions across multiple components/pages and verify the application's functionality from the user's perspective.
+
+### Tools and Techniques:
+- **xUnit:** Integrated as the testing framework for writing and executing unit tests. xUnit provides a robust and extensible platform for organizing and running tests, facilitating the creation of clear and concise test cases.
+
+- **BUnit:** Used for writing and executing unit tests for Blazor components. It provides a convenient framework for testing individual components and their interactions.
+  
+- **Moq:** Employed for creating mock objects and defining behaviors during unit and integration testing. It allows for simulating dependencies and external services, facilitating controlled testing environments.
+  
+- **FluentAssertions:** Utilized for writing expressive and readable assertions in test cases. It enhances the clarity and maintainability of tests by providing a fluent syntax for assertions.
+
+
+
+
+
+# Test Cases
 
 This document provides detailed descriptions of test cases executed for the SmartieeWeb application, including their outcomes and notes on their execution. All tests have been performed successfully, validating the functionality of the application as per the requirements.
 
