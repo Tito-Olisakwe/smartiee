@@ -19,6 +19,11 @@ namespace SmartieeWeb.Tests
 Services.AddSingleton<ILogger<Quiz>>(mockLogger.Object);
 Services.AddSingleton<NavigationManager>(mockNavigationManager.Object);
 
+/// <summary>
+/// Test ID: TC015
+/// Description: Verify that the Quiz component shows a loading message upon initial load while fetching questions.
+/// Expected Outcome: The component's markup contains "Loading questions..." during the question fetching process.
+/// </summary>
 [Fact]
         public void QuizComponent_ShowsLoadingOnInitialLoad()
         {
@@ -37,7 +42,11 @@ Services.AddSingleton<NavigationManager>(mockNavigationManager.Object);
             Assert.Contains("Loading questions...", component.Markup);
         }
 
-
+        /// <summary>
+        /// Test ID: TC016
+        /// Description: Ensure the Quiz component displays a loading message while questions are being asynchronously fetched.
+        /// Expected Outcome: "Loading questions..." is displayed in the component's markup while fetching questions.
+        /// </summary>
         [Fact]
         public void ShowsLoadingMessage_WhileQuestionsAreBeingFetched()
         {
@@ -59,6 +68,11 @@ Services.AddSingleton<NavigationManager>(mockNavigationManager.Object);
             Assert.Contains("Loading questions...", component.Markup);
         }
 
+        /// <summary>
+        /// Test ID: TC017
+        /// Description: Verify that the Quiz component displays a "Time's up! Your final score:" message when the quiz time expires.
+        /// Expected Outcome: The component's markup includes the "Time's up! Your final score:" message upon time expiration.
+        /// </summary>
         [Fact]
         public void DisplaysTimesUpMessage_WhenTimeExpires()
         {
@@ -71,7 +85,6 @@ Services.AddSingleton<NavigationManager>(mockNavigationManager.Object);
                 parameters.Add(p => p.IsTimed, true);
             });
 
-            // Simulate time running out
             component.Instance.timeExpired = true;
             component.Render();
 
@@ -79,6 +92,11 @@ Services.AddSingleton<NavigationManager>(mockNavigationManager.Object);
             Assert.Contains("Time's up! Your final score:", component.Markup);
         }
 
+        /// <summary>
+        /// Test ID: TC018
+        /// Description: Confirm that the Quiz component navigates to the results page when the quiz time expires.
+        /// Expected Outcome: The application's URL changes to "/results/5" indicating navigation to the results page with the final score.
+        /// </summary>
         [Fact]
         public void NavigatesToResults_WhenTimeExpires()
         {
@@ -104,14 +122,18 @@ Services.AddSingleton<NavigationManager>(mockNavigationManager.Object);
             });
 
             // Act
-            component.Instance.timeExpired = true; // Assuming this triggers navigation internally
-            component.Instance.ShowResults(); // Directly invoke the method or simulate the condition leading to its call
+            component.Instance.timeExpired = true;
+            component.Instance.ShowResults();
 
             // Assert
             mockNavigationManager.Verify(nm => nm.NavigateTo(It.Is<string>(uri => uri == expectedUri), It.IsAny<bool>()), Times.Once());
         }
 
-
+        /// <summary>
+        /// Test ID: TC019
+        /// Description: Verify that selecting the correct answer updates the score appropriately and provides positive feedback to the user.
+        /// Expected Outcome: The component confirms the answer is correct and displays a "Correct!" message.
+        /// </summary>
         [Fact]
         public async Task CorrectAnswerSelection_UpdatesScoreAndProvidesFeedback()
         {
@@ -140,6 +162,11 @@ Services.AddSingleton<NavigationManager>(mockNavigationManager.Object);
             Assert.Contains("Correct!", component.Markup);
         }
 
+        /// <summary>
+        /// Test ID: TC020
+        /// Description: Ensure selecting an incorrect answer does not update the score but provides feedback about the correct answer.
+        /// Expected Outcome: The component indicates the answer is incorrect and displays the correct answer.
+        /// </summary>
         [Fact]
         public async Task IncorrectAnswerSelection_DoesNotUpdateScoreButProvidesCorrectFeedback()
         {
@@ -171,6 +198,11 @@ Services.AddSingleton<NavigationManager>(mockNavigationManager.Object);
 
         }
 
+        /// <summary>
+        /// Test ID: TC021
+        /// Description: Confirm that the next question button either loads the next question or navigates to the results page if there are no more questions.
+        /// Expected Outcome: The component navigates to the next question or the results page based on the availability of further questions.
+        /// </summary>
         [Fact]
         public async Task NextQuestionButton_LoadsNextQuestionOrNavigatesToResults()
         {
@@ -198,6 +230,11 @@ Services.AddSingleton<NavigationManager>(mockNavigationManager.Object);
             component.Find("button.next-question").Click();
         }
 
+        /// <summary>
+        /// Test ID: TC022
+        /// Description: Verify that the play again button restarts the quiz with the initial settings.
+        /// Expected Outcome: The quiz is restarted with the same category, difficulty, and timing settings as the initial quiz.
+        /// </summary>
         [Fact]
         public async Task PlayAgainButton_RestartsQuizWithSameSettings()
         {

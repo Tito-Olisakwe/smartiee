@@ -30,6 +30,11 @@ namespace SmartieeWeb.Tests
             Services.AddSingleton<IAppStateService>(mockAppStateService.Object);
         }
 
+        /// <summary>
+        /// Test ID: TC023
+        /// Description: Verify the Results page initializes correctly and displays the user's score and percentage.
+        /// Expected Outcome: The component's markup includes the user's score out of the total questions and the calculated percentage.
+        /// </summary>
         [Fact]
         public void ResultsPage_InitializesCorrectly()
         {
@@ -47,6 +52,11 @@ namespace SmartieeWeb.Tests
             Assert.Contains("That's 70%", component.Markup);
         }
 
+        /// <summary>
+        /// Test ID: TC024
+        /// Description: Ensure the "Play Again" button navigates the user back to the quiz with the last used settings.
+        /// Expected Outcome: Clicking "Play Again" navigates to the quiz page with the last category, difficulty, and timing settings.
+        /// </summary>
         [Fact]
         public void PlayAgainButton_NavigatesCorrectly()
         {
@@ -63,6 +73,11 @@ namespace SmartieeWeb.Tests
             Assert.Equal(expectedUrl, mockNavManager.NavigatedUri);
         }
 
+        /// <summary>
+        /// Test ID: TC025
+        /// Description: Confirm the "Return to Main Menu" button correctly navigates the user back to the application's root.
+        /// Expected Outcome: Clicking "Return to Main Menu" navigates to the application's root ("/").
+        /// </summary>
         [Fact]
         public void ReturnToMainMenuButton_NavigatesToRoot()
         {

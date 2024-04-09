@@ -11,6 +11,11 @@ namespace SmartieeWeb.Tests
 {
     public class DifficultyTests : TestContext
     {
+        /// <summary>
+        /// Test ID: TC012
+        /// Description: Verify the Difficulty selection component renders correctly with all difficulty level buttons.
+        /// Expected Outcome: The component renders three buttons labeled "Easy", "Medium", and "Hard".
+        /// </summary>
         [Fact]
         public void DifficultySelectionComponent_RendersCorrectly()
         {
@@ -27,6 +32,11 @@ namespace SmartieeWeb.Tests
             Assert.Contains("Hard", component.Markup);
         }
 
+        /// <summary>
+        /// Test ID: TC013
+        /// Description: Ensure that clicking on any difficulty level button navigates to the correct URL with the chosen difficulty.
+        /// Expected Outcome: Clicking a difficulty button navigates to "/timed/1/{difficulty}", where {difficulty} is the difficulty level of the button clicked.
+        /// </summary>
         [Theory]
         [InlineData("Easy")]
         [InlineData("Medium")]
@@ -49,7 +59,7 @@ namespace SmartieeWeb.Tests
         public class MockNavigationManager : NavigationManager
         {
             public MockNavigationManager() => Initialize("http://localhost/", "http://localhost/");
-            
+
             protected override void NavigateToCore(string uri, bool forceLoad) { /* Mock implementation */ }
         }
     }

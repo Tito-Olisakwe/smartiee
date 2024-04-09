@@ -11,6 +11,11 @@ namespace SmartieeWeb.Tests
 {
     public class IndexTests : TestContext
     {
+        /// <summary>
+        /// Test ID: TC014
+        /// Description: Verify that clicking the continue button on the Index page navigates the user to the Categories page.
+        /// Expected Outcome: The application navigates to "/categories" upon clicking the continue button.
+        /// </summary>
         [Fact]
         public void ContinueButton_NavigatesToCategories()
         {
@@ -18,7 +23,7 @@ namespace SmartieeWeb.Tests
             var mockNavManager = new MockNavigationManager();
             Services.AddSingleton<NavigationManager>(mockNavManager);
 
-            var component = RenderComponent<Index>();
+            var component = RenderComponent<Pages.Index>();
 
             // Act
             component.Find("button.custom-btn").Click();

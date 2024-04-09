@@ -7,6 +7,11 @@ namespace SmartieeWeb.Tests
 {
     public class ConfirmModalTests : TestContext
     {
+        /// <summary>
+        /// Test ID: TC009
+        /// Description: Verify that clicking the confirm button closes the modal and invokes the OnConfirm callback with the correct option index.
+        /// Expected Outcome: The modal is no longer visible, and the OnConfirm callback is invoked with the index passed to the Show method.
+        /// </summary>
         [Fact]
         public async Task ConfirmButton_ClosesModalAndInvokesOnConfirm()
         {
@@ -28,6 +33,11 @@ namespace SmartieeWeb.Tests
             Assert.Equal(5, invokedOptionIndex);
         }
 
+        /// <summary>
+        /// Test ID: TC010
+        /// Description: Ensure that clicking the cancel button closes the modal and invokes the OnCancel callback.
+        /// Expected Outcome: The modal is closed, and the OnCancel callback is invoked.
+        /// </summary>
         [Fact]
         public async Task CancelButton_ClosesModalAndInvokesOnCancel()
         {
@@ -50,6 +60,11 @@ namespace SmartieeWeb.Tests
             component.Markup.Should().NotContain("display:block;"); // Assuming you check for visibility with markup
         }
 
+        /// <summary>
+        /// Test ID: TC011
+        /// Description: Confirm that the Show method correctly makes the modal visible and displays the passed message.
+        /// Expected Outcome: The modal is visible with "display:block;" and contains the specified message.
+        /// </summary>
         [Fact]
         public async Task ShowMethod_MakesModalVisibleWithCorrectMessage()
         {

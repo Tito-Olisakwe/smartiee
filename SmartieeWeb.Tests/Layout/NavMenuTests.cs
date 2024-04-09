@@ -30,6 +30,11 @@ namespace SmartieeWeb.Tests
             ctx.Services.AddSingleton<IAppStateService>(mockAppStateService.Object);
         }
 
+        /// <summary>
+        /// Test ID: TC003
+        /// Description: Verify that the NavMenu component displays categories as fetched from the DataService after initialization.
+        /// Expected Outcome: The component's markup contains the category name "Science".
+        /// </summary>
         [Fact]
         public void ComponentDisplaysCategoriesAfterInitialization()
         {
@@ -40,6 +45,11 @@ namespace SmartieeWeb.Tests
             component.Markup.Should().Contain("Science");
         }
 
+        /// <summary>
+        /// Test ID: TC004
+        /// Description: Ensure the NavMenu component displays an error message when categories data is unavailable.
+        /// Expected Outcome: The component's markup contains the text "Categories Unavailable".
+        /// </summary>
         [Fact]
         public void ComponentShowsErrorWhenCategoriesUnavailable()
         {
@@ -53,6 +63,11 @@ namespace SmartieeWeb.Tests
             component.WaitForAssertion(() => component.Markup.Should().Contain("Categories Unavailable"), TimeSpan.FromSeconds(2));
         }
 
+        /// <summary>
+        /// Test ID: TC005
+        /// Description: Verify that clicking the navbar toggler button changes the visibility of the navigation menu.
+        /// Expected Outcome: The navigation menu's class list toggles the "collapse" class, indicating a change in visibility.
+        /// </summary>
         [Fact]
         public void ToggleNavMenuChangesVisibility()
         {
@@ -69,6 +84,11 @@ namespace SmartieeWeb.Tests
             navMenuDiv.ClassList.Contains("collapse").Should().BeFalse();
         }
 
+        /// <summary>
+        /// Test ID: TC006
+        /// Description: Confirm that clicking a category button navigates to the correct category page.
+        /// Expected Outcome: The application's URI contains "/difficulty/" indicating navigation to the category's difficulty selection page.
+        /// </summary>
         [Fact]
         public void NavigateToCategoryCallsCorrectServiceMethod()
         {

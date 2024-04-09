@@ -11,6 +11,11 @@ namespace SmartieeWeb.Tests
 {
     public class TimedQuizSelectionTests : TestContext
     {
+        /// <summary>
+        /// Test ID: TC026
+        /// Description: Verify that selecting a quiz timing option correctly navigates to the quiz page with the chosen timing setting (timed or untimed).
+        /// Expected Outcome: The application navigates to the appropriate URL based on the timing selection, indicating the quiz will be timed or untimed.
+        /// </summary>
         [Theory]
         [InlineData(true)]
         [InlineData(false)]

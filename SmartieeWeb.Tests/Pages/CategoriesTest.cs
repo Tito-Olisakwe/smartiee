@@ -29,6 +29,11 @@ namespace SmartieeWeb.Tests
             Services.AddSingleton<IAppStateService>(mockAppStateService.Object);
         }
 
+        /// <summary>
+        /// Test ID: TC007
+        /// Description: Verify that the Categories page loads and correctly displays all available categories.
+        /// Expected Outcome: The component's markup should contain the names of all categories, "Science" and "Math", and display corresponding buttons for each.
+        /// </summary>
         [Fact]
         public void CategoriesPage_LoadsAndDisplaysCategories()
         {
@@ -37,9 +42,14 @@ namespace SmartieeWeb.Tests
 
             // Assert
             component.Markup.Should().ContainAll("Science", "Math");
-            component.FindAll("button.custom-btn").Count.Should().Be(3); 
+            component.FindAll("button.custom-btn").Count.Should().Be(3);
         }
 
+        /// <summary>
+        /// Test ID: TC008
+        /// Description: Ensure that selecting a category on the Categories page navigates to the correct difficulty selection page for that category.
+        /// Expected Outcome: The application navigates to "/difficulty/1" upon selecting the "Science" category.
+        /// </summary>
         [Fact]
         public void CategoriesPage_NavigatesToCategory_WhenSelected()
         {
@@ -53,7 +63,7 @@ namespace SmartieeWeb.Tests
             });
 
             // Act
-            var component = RenderComponent<Categories>(); 
+            var component = RenderComponent<Categories>();
             component.Find("button.custom-btn").Click();
 
             // Assert

@@ -9,6 +9,11 @@ namespace SmartieeWeb.Tests
 {
     public class MainLayoutTests
     {
+        /// <summary>
+        /// Test ID: TC001
+        /// Description: Verify the MainLayout component initializes with the default category name from the AppStateService.
+        /// Expected Outcome: The component's markup contains the "Default Category" text, indicating the default category name is displayed.
+        /// </summary>
         [Fact]
         public void ComponentInitializesWithDefaultCategoryName()
         {
@@ -28,6 +33,11 @@ namespace SmartieeWeb.Tests
             component.Markup.Contains("Default Category").Should().BeTrue();
         }
 
+        /// <summary>
+        /// Test ID: TC002
+        /// Description: Verify the MainLayout component updates its display when the category name changes in the AppStateService.
+        /// Expected Outcome: The component's markup updates to contain "New Category" when the AppStateService's category name is changed.
+        /// </summary>
         [Fact]
         public void ComponentUpdatesCategoryNameOnAppStateServiceChange()
         {
