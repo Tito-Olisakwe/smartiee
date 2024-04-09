@@ -12,7 +12,7 @@ namespace SmartieeWeb.Services
     /// <summary>
     /// Manages quiz operations including loading questions, scoring, and tracking quiz timing.
     /// </summary>
-    public class QuizService
+    public class QuizService : IQuizService
     {
         private readonly HttpClient _http;
         private List<Question> _questions;

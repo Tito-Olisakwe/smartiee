@@ -7,12 +7,12 @@ namespace SmartieeWeb.Services
     /// This service allows for the category name to be updated and provides a notification mechanism
     /// to inform components of state changes.
     /// </summary>
-    public class AppStateService
+    public class AppStateService : IAppStateService
     {
         /// <summary>
         /// Gets the current category name displayed in the quiz.
         /// </summary>
-        public string CurrentCategoryName { get; private set; } = "How Smart Are You?";
+        public virtual string CurrentCategoryName { get; private set; } = "How Smart Are You?";
 
         /// <summary>
         /// Event that is triggered whenever the state of the application changes.

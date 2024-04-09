@@ -66,6 +66,72 @@
             </summary>
             <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation, with a <see cref="T:SmartieeWeb.Models.TriviaData"/> result containing the loaded trivia data.</returns>
         </member>
+        <member name="T:SmartieeWeb.Services.IAppStateService">
+            <summary>
+            Defines a contract for managing the application's state related to the current quiz category.
+            </summary>
+        </member>
+        <member name="T:SmartieeWeb.Services.IDataService">
+            <summary>
+            Defines a contract for services that load trivia data.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.IDataService.LoadTriviaDataAsync">
+            <summary>
+            Asynchronously loads trivia data.
+            </summary>
+            <returns>A task that represents the asynchronous operation and contains trivia data.</returns>
+        </member>
+        <member name="T:SmartieeWeb.Services.IQuizService">
+            <summary>
+            Defines a contract for managing quiz operations, including question loading, scoring, and timing.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.IQuizService.LoadQuestionsAsync(System.Int32,System.String,System.Boolean)">
+            <summary>
+            Asynchronously loads questions based on specified criteria and prepares the quiz.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.IQuizService.GetQuestion(System.Int32)">
+            <summary>
+            Retrieves a question by its index.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.IQuizService.SubmitAnswer(System.Int32,System.Int32)">
+            <summary>
+            Submits an answer for a question and updates the score based on correctness.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.IQuizService.MarkTimeAsRanOut">
+            <summary>
+            Marks the quiz as having run out of time.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.IQuizService.Reset">
+            <summary>
+            Resets the quiz state to default.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.IQuizService.HasMoreQuestions(System.Int32)">
+            <summary>
+            Determines whether more questions are available to be answered.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.IQuizService.StartQuizTimer">
+            <summary>
+            Starts the timer for a timed quiz session.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.IQuizService.EndQuizTimer">
+            <summary>
+            Ends the timer for a timed quiz session.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.IQuizService.GetQuizDuration">
+            <summary>
+            Calculates the total duration of the quiz.
+            </summary>
+        </member>
         <member name="T:SmartieeWeb.Services.QuizService">
             <summary>
             Manages quiz operations including loading questions, scoring, and tracking quiz timing.

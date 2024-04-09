@@ -9,7 +9,7 @@ namespace SmartieeWeb.Services
     /// Provides services for loading trivia data from a specified source.
     /// Utilizes <see cref="HttpClient"/> for fetching trivia data from an external JSON file.
     /// </summary>
-    public class DataService
+    public class DataService : IDataService
     {
         // The HttpClient instance used for making HTTP requests to fetch trivia data
         private readonly HttpClient _http;
