@@ -21,17 +21,21 @@ else
 }
 
 @code {
+    // Holds the list of quiz categories retrieved from the DataService.
     private List<Category> categories;
 
+    // Called when the component is initialized. Loads categories from the DataService.
     protected override async Task OnInitializedAsync()
     {
         var triviaData = await DataService.LoadTriviaDataAsync();
         categories = triviaData.Categories;
     }
 
+    // Called when a category is selected. Sets the AppStateService's current category name and navigates to the category's
+    // page.
     private void SelectCategory(int categoryId)
     {
-        string categoryName = "Random"; // Default to "Random" for categoryId 0 or if not found
+        string categoryName = "Random";
 
         if (categoryId != 0)
         {
@@ -43,8 +47,6 @@ else
         }
 
         AppStateService.SetCurrentCategoryName(categoryName);
-
-        // Navigation logic to difficulty selection
         NavigationManager.NavigateTo($"/difficulty/{categoryId}");
     }
 }

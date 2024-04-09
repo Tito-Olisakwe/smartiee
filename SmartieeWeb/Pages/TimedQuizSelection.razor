@@ -10,13 +10,14 @@
 @code {
     [Parameter]
     public int CategoryId { get; set; }
-    
+
     [Parameter]
     public string Difficulty { get; set; }
 
+    // Starts the quiz with the specified timing option (timed or untimed)
+    // and navigates to the quiz component with the selected settings.
     private void StartQuiz(bool isTimed)
     {
-        // Navigation logic to start quiz with all selected options
         NavigationManager.NavigateTo($"/quiz/{CategoryId}/{Difficulty}/{isTimed}");
     }
 }

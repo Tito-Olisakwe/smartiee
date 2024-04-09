@@ -37,15 +37,22 @@
 @code {
     private bool collapseNavMenu = true;
 
+    // Retrieves the CSS class for the navigation menu, returning "collapse" when the menu is collapsed or null for an
+    // expanded state.
+    // This property is dependent on the collapseNavMenu boolean.
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
     private List<Category> categories = new List<Category>();
 
+    // Toggles the visibility of the navigation menu, collapsing or expanding it.
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
     }
 
+    // Initializes the component asynchronously, loads trivia data from the DataService,
+    // and populates the categories list. If the data service returns null or an empty list,
+    // it initializes categories with a default error entry.
     protected override async Task OnInitializedAsync()
     {
         var triviaData = await DataService.LoadTriviaDataAsync();
@@ -55,22 +62,28 @@
         }
         else
         {
-            // Display a placeholder or error message
             categories = new List<Category> { new Category { Id = -1, Name = "Categories Unavailable" } };
         }
     }
 
+    // Navigates to a category based on the provided categoryId and categoryName.
+    // Sets the current category name in AppStateService and uses NavigationManager to navigate to the selected category's
+    // page.
     private void NavigateToCategory(int categoryId, string categoryName)
     {
         AppStateService.SetCurrentCategoryName(categoryName);
         NavigationManager.NavigateTo($"/difficulty/{categoryId}");
     }
 
+    // Chooses a random category and navigates to it. This is a convenience method that wraps NavigateToCategory,
+    // effectively treating "Random" as a special category.
     private void NavigateToRandomCategory()
     {
         NavigateToCategory(0, "Random");
     }
 
+    // Resets the category selection to the default value. This is typically called when the user clicks
+    // on the "Home" link or the brand name in the navbar, ensuring that any category-specific state is cleared.
     private void ResetToDefaultCategoryName()
     {
         AppStateService.ResetCategoryNameToDefault();

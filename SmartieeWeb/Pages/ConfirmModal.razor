@@ -1,11 +1,28 @@
+@if (_isVisible)
+{
+    <div class="modal" style="display:block;">
+    <div class="modal-content">
+        <p>@_message</p>
+        <button class="custom-btn" @onclick="Confirm">Confirm</button>
+        <button class="custom-btn" @onclick="Cancel">Cancel</button>
+    </div>
+</div>
+}
+
+
 @code {
     private bool _isVisible;
     private string _message = "";
     private int _optionIndex;
-    
+
     [Parameter] public EventCallback<int> OnConfirm { get; set; }
     [Parameter] public Action OnCancel { get; set; }
 
+    /// <summary>
+    /// Displays the modal with a specified message and option index.
+    /// </summary>
+    /// <param name="message">The message to be displayed in the modal.</param>
+    /// <param name="optionIndex">The index of the option associated with the modal.</param>
     public void Show(string message, int optionIndex)
     {
         Console.WriteLine($"Showing modal with message: {message} and optionIndex: {optionIndex}");
@@ -15,6 +32,7 @@
         StateHasChanged();
     }
 
+    // Handles the confirm action by invoking the OnConfirm callback and then closing the modal.
     private async Task Confirm()
     {
         Console.WriteLine("Confirm method invoked.");
@@ -25,26 +43,17 @@
         Close();
     }
 
-    private void Close() 
+    // Closes the modal and resets its visibility state.
+    private void Close()
     {
         _isVisible = false;
-        StateHasChanged(); // Ensure the UI updates to reflect the modal is closed.
+        StateHasChanged();
     }
 
-    private void Cancel() 
+    // Handles the cancel action by invoking the OnCancel action, if any, and closing the modal.
+    private void Cancel()
     {
-        OnCancel?.Invoke(); // This will execute the logic provided by the consuming component
-        Close(); // Close the modal
+        OnCancel?.Invoke();
+        Close();
     }
-}
-
-@if (_isVisible)
-{
-    <div class="modal" style="display:block;">
-        <div class="modal-content">
-            <p>@_message</p>
-            <button class="custom-btn" @onclick="Confirm">Confirm</button>
-            <button class="custom-btn" @onclick="Cancel">Cancel</button>
-        </div>
-    </div>
 }

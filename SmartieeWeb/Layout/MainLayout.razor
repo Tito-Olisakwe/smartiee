@@ -19,20 +19,28 @@
 </div>
 
 @code {
+    // Holds the name of the current category, initialized to "Default Category". This value is displayed in the UI and updated through AppStateService events.
     private string currentCategoryName = "Default Category";
 
+    // Called by the Blazor framework when the component is initialized. It sets the currentCategoryName based on the AppStateService's CurrentCategoryName
+    // and subscribes to the AppStateService's OnChange event to handle future updates.
     protected override void OnInitialized()
     {
         currentCategoryName = AppStateService.CurrentCategoryName;
         AppStateService.OnChange += UpdateCategoryName;
     }
 
+    // Updates the currentCategoryName property with the value from AppStateService and requests a UI update. This method is called in response to AppStateService's OnChange event.
     private void UpdateCategoryName()
     {
         currentCategoryName = AppStateService.CurrentCategoryName;
         InvokeAsync(StateHasChanged);
     }
 
+    /// <summary>
+    /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+    /// Specifically, it unsubscribes from the AppStateService's OnChange event to prevent memory leaks.
+    /// </summary>
     public void Dispose()
     {
         AppStateService.OnChange -= UpdateCategoryName;

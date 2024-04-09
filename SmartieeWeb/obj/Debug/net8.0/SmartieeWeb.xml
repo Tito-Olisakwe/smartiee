@@ -4,5 +4,167 @@
         <name>SmartieeWeb</name>
     </assembly>
     <members>
+        <member name="T:SmartieeWeb.Models.Category">
+            <summary>
+            Represents a quiz category with an ID and a name.
+            </summary>
+        </member>
+        <member name="T:SmartieeWeb.Models.Question">
+            <summary>
+            Represents a single quiz question, including details like category ID, difficulty, options, and the correct answer.
+            </summary>
+        </member>
+        <member name="T:SmartieeWeb.Models.TriviaData">
+            <summary>
+            Contains all data necessary for running a trivia quiz, including categories and questions.
+            </summary>
+        </member>
+        <member name="T:SmartieeWeb.Services.AppStateService">
+            <summary>
+            Manages the application state, specifically the current category name selected in the quiz.
+            This service allows for the category name to be updated and provides a notification mechanism
+            to inform components of state changes.
+            </summary>
+        </member>
+        <member name="P:SmartieeWeb.Services.AppStateService.CurrentCategoryName">
+            <summary>
+            Gets the current category name displayed in the quiz.
+            </summary>
+        </member>
+        <member name="E:SmartieeWeb.Services.AppStateService.OnChange">
+            <summary>
+            Event that is triggered whenever the state of the application changes.
+            Components can subscribe to this event to be notified of state changes.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.AppStateService.SetCurrentCategoryName(System.String)">
+            <summary>
+            Updates the current category name and notifies subscribers of the change.
+            </summary>
+            <param name="name">The new category name to set.</param>
+        </member>
+        <member name="M:SmartieeWeb.Services.AppStateService.ResetCategoryNameToDefault">
+            <summary>
+            Resets the current category name to its default value and notifies subscribers of the change.
+            </summary>
+        </member>
+        <member name="T:SmartieeWeb.Services.DataService">
+            <summary>
+            Provides services for loading trivia data from a specified source.
+            Utilizes <see cref="T:System.Net.Http.HttpClient"/> for fetching trivia data from an external JSON file.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.DataService.#ctor(System.Net.Http.HttpClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SmartieeWeb.Services.DataService"/> class with a specific <see cref="T:System.Net.Http.HttpClient"/>.
+            </summary>
+            <param name="http">The <see cref="T:System.Net.Http.HttpClient"/> used for HTTP operations.</param>
+        </member>
+        <member name="M:SmartieeWeb.Services.DataService.LoadTriviaDataAsync">
+            <summary>
+            Asynchronously loads trivia data from a predefined JSON resource.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation, with a <see cref="T:SmartieeWeb.Models.TriviaData"/> result containing the loaded trivia data.</returns>
+        </member>
+        <member name="T:SmartieeWeb.Services.QuizService">
+            <summary>
+            Manages quiz operations including loading questions, scoring, and tracking quiz timing.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.QuizService.#ctor(System.Net.Http.HttpClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SmartieeWeb.Services.QuizService"/> with a specified HttpClient.
+            </summary>
+            <param name="http">The HttpClient instance used for HTTP requests.</param>
+        </member>
+        <member name="M:SmartieeWeb.Services.QuizService.LoadQuestionsAsync(System.Int32,System.String,System.Boolean)">
+            <summary>
+            Asynchronously loads questions based on specified criteria and prepares the quiz.
+            </summary>
+            <param name="categoryId">The category ID for filtering questions.</param>
+            <param name="difficulty">The difficulty level for filtering questions.</param>
+            <param name="isTimed">Indicates if the quiz should be timed.</param>
+        </member>
+        <member name="M:SmartieeWeb.Services.QuizService.GetQuestion(System.Int32)">
+            <summary>
+            Retrieves a question by its index from the loaded questions.
+            </summary>
+            <param name="index">The index of the question to retrieve.</param>
+            <returns>The question at the specified index.</returns>
+        </member>
+        <member name="M:SmartieeWeb.Services.QuizService.SubmitAnswer(System.Int32,System.Int32)">
+            <summary>
+            Submits an answer for a question and updates the score if the answer is correct.
+            </summary>
+            <param name="questionIndex">The index of the question being answered.</param>
+            <param name="answerIndex">The index of the selected answer.</param>
+            <returns>True if the selected answer is correct; otherwise, false.</returns>
+        </member>
+        <member name="M:SmartieeWeb.Services.QuizService.MarkTimeAsRanOut">
+            <summary>
+            Marks the quiz as having run out of time.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.QuizService.Reset">
+            <summary>
+            Resets the quiz state, including clearing questions and resetting the score.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.QuizService.HasMoreQuestions(System.Int32)">
+            <summary>
+            Determines whether there are more questions to be answered in the quiz.
+            </summary>
+            <param name="currentQuestionIndex">The index of the current question.</param>
+            <returns>True if there are more questions; otherwise, false.</returns>
+        </member>
+        <member name="M:SmartieeWeb.Services.QuizService.StartQuizTimer">
+            <summary>
+            Starts the timer for a timed quiz session.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.QuizService.EndQuizTimer">
+            <summary>
+            Ends the timer for a timed quiz session.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Services.QuizService.GetQuizDuration">
+            <summary>
+            Calculates the duration of the quiz from start to end.
+            </summary>
+            <returns>The duration of the quiz.</returns>
+        </member>
+        <member name="M:SmartieeWeb.Pages.ConfirmModal.Show(System.String,System.Int32)">
+            <summary>
+            Displays the modal with a specified message and option index.
+            </summary>
+            <param name="message">The message to be displayed in the modal.</param>
+            <param name="optionIndex">The index of the option associated with the modal.</param>
+        </member>
+        <member name="P:SmartieeWeb.Pages.Quiz.CategoryIdAsString">
+            <summary>
+            The Category ID as a string. It's converted to an integer for internal processing.
+            </summary>
+        </member>
+        <member name="P:SmartieeWeb.Pages.Quiz.Difficulty">
+            <summary>
+            The difficulty level selected for the quiz.
+            </summary>
+        </member>
+        <member name="P:SmartieeWeb.Pages.Quiz.IsTimed">
+            <summary>
+            Indicates whether the quiz should be timed.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Pages.Quiz.Dispose">
+            <summary>
+             Cleans up resources on component disposal.
+            </summary>
+        </member>
+        <member name="M:SmartieeWeb.Layout.MainLayout.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            Specifically, it unsubscribes from the AppStateService's OnChange event to prevent memory leaks.
+            </summary>
+        </member>
     </members>
 </doc>

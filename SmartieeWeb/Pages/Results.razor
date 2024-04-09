@@ -30,6 +30,7 @@ else
 
     private string QuizDurationText => QuizService.LastIsTimed ? $"You completed the quiz in {QuizService.GetQuizDuration().ToString(@"mm\:ss")}." : string.Empty;
 
+    // Initializes component state, parsing score and calculating performance metrics.
     protected override void OnInitialized()
     {
         base.OnInitialized();
@@ -38,20 +39,21 @@ else
         {
             throw new InvalidOperationException("Invalid score value.");
         }
-        Score = score; // Assign the parsed value to the property
+        Score = score;
 
         TotalQuestions = QuizService.TotalQuestions;
         Percentage = TotalQuestions > 0 ? ((double)Score / TotalQuestions) * 100 : 0;
         timeRanOut = QuizService.TimeRanOut;
     }
 
+    // Navigates to the quiz page to play again with the same settings.
     private void PlayAgain()
     {
-        // Navigate to the quiz page with the previous settings
         var url = $"/quiz/{QuizService.LastCategoryId}/{QuizService.LastDifficulty}/{QuizService.LastIsTimed}";
         NavigationManager.NavigateTo(url);
     }
 
+    // Resets the quiz state and returns to the main menu.
     private void ReturnToMainMenu()
     {
         AppStateService.ResetCategoryNameToDefault();

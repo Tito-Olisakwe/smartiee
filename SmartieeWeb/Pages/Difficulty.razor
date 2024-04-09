@@ -17,9 +17,9 @@
     private void StartMediumQuiz() => StartQuiz("Medium");
     private void StartHardQuiz() => StartQuiz("Hard");
 
+    // Navigates to the quiz page with the selected difficulty level.
     private void StartQuiz(string difficulty)
     {
-        // Navigation logic to timed quiz selection
         NavigationManager.NavigateTo($"/timed/{CategoryId}/{difficulty}");
     }
 }

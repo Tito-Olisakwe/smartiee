@@ -7,9 +7,9 @@
 <button class="custom-btn" @onclick="GoToCategories">Continue</button>
 
 @code {
+    // Redirects the user to the categories selection page.
     private void GoToCategories()
     {
-        // Navigation logic to the categories page
         NavigationManager.NavigateTo("/categories");
     }
 }

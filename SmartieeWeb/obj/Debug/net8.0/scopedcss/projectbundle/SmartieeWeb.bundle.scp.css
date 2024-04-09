@@ -161,12 +161,10 @@ main[b-8ydab1uart] {
     }
 
     .collapse[b-7fnbho4h7v] {
-        /* Never collapse the sidebar for wide screens */
         display: block;
     }
     
     .nav-scrollable[b-7fnbho4h7v] {
-        /* Allow sidebar to scroll for tall menus */
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }

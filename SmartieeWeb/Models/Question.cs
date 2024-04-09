@@ -1,5 +1,8 @@
 namespace SmartieeWeb.Models
 {
+    /// <summary>
+    /// Represents a single quiz question, including details like category ID, difficulty, options, and the correct answer.
+    /// </summary>
     public class Question
     {
         public int CategoryId { get; set; }
