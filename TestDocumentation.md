@@ -25,7 +25,7 @@ My testing strategy aims to ensure the correctness and robustness of the Smartie
 
 # Test Cases
 
-This document provides detailed descriptions of test cases executed for the SmartieeWeb application, including their outcomes and notes on their execution. All tests have been performed successfully, validating the functionality of the application as per the requirements.
+This document provides detailed descriptions of test cases executed for the SmartieeWeb application, including their outcomes and notes on their execution. All tests have been performed successfully, validating the functionality of the application as per the requirements. For ease of reference, each test case, such as TC001, TC002, etc., is identified within the document using XML tags.
 
 ## MainLayoutTests
 

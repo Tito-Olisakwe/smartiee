@@ -1,4 +1,4 @@
-# Smartiee Quiz Application Design Document
+# Smartiee Application Design Document
 
 ## Overview
 The Smartiee Quiz application is a web-based interactive platform built with Blazor WebAssembly. This document outlines the key components of the application's design including data structures, classes, and services.
