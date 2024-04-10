@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SmartieeWeb",
   "resources": {
-    "hash": "sha256-6MSYPGQt2ztdBNsmoqVmiILIYtzAOcT2P2+zyCvpJeI=",
+    "hash": "sha256-xW6GJ5MxDCA09Q0Jp896mhP+ek1FtYBkWc0O9h/o88Q=",
     "jsModuleNative": {
       "dotnet.native.8.0.3.fl90d3adj8.js": "sha256-D4sYBYmDfH/YekgYRgX959/2RG6k28sJSHmcsn+iikk="
     },
@@ -225,10 +225,10 @@
       "mscorlib.wasm": "sha256-/xjZuJwCmantx5vGyH5ZZ8keySSTeu+YHKQRJbZzcuM=",
       "netstandard.wasm": "sha256-vuFKmCGJbyv85DrzI6S1ZvCikuhIllH6hqbXIL+fUAA=",
       "System.Private.CoreLib.wasm": "sha256-SZkozEDkHEFN0VaDmhl2HOenGaqTOmHqEGkraz3Aejc=",
-      "SmartieeWeb.wasm": "sha256-oPkUWLtJtusGSVDssqMLUD+0N1IVJA3/wSX7iRdNu6Q="
+      "SmartieeWeb.wasm": "sha256-9V5MyWQtlb2Bd54MzDDSgdvJA1AYX2V91XjEUPTwOYo="
     },
     "pdb": {
-      "SmartieeWeb.pdb": "sha256-2y4VmG8J+ME79nk+Kq/65YxwdxW7JPkfI8CWBUlELzM="
+      "SmartieeWeb.pdb": "sha256-4HpXrFH+ZG3SfirJSAdWolPyoTDIu+NFJ/PsbOFIunA="
     },
     "satelliteResources": {
       "cs": {

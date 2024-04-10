@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smartiee")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c28bfcbe13029f218fe0a71cbf0feb3f0ab4227e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97aa01ed0baaab6a4587a3775eb86b9a91d30465")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smartiee")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smartiee")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

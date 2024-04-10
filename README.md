@@ -64,12 +64,12 @@ You will be presented with one question at a time. Select an answer from the giv
 
 After submitting an answer for the last question or if your time runs out, your results will be displayed.
 
-### Retaking or Exiting:
+### Retaking:
 
-You have the option to retake the quiz with the same settings or exit and choose a new category.
+You have the option to retake the quiz with the same settings or go back to the main menu and choose a new category.
 
 
 ## Demo
 
-You can watch a video of how the application works here: [Smartiee Quiz Application Demo](https://www.youtube.com)
+You can watch a video of how the application works here: [Demo Video](https://youtu.be/ZaPI2jCezPk)
 
